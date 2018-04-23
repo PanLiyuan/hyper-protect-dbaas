@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-23"
 
 ---
 
@@ -24,10 +24,12 @@ These are the instance operation commands:
 {: #instance_stop}
 
 ### Description
+{: #instance_stop_desc}
 
 Stops an instance (that is, a replication member of the cluster).
 
 ### Usage
+{: #instance_stop_use}
 
 **instance-stop** *instance_id*
 
@@ -40,10 +42,12 @@ Stops an instance (that is, a replication member of the cluster).
 {: #instance_start}
 
 ### Description
+{: #instance_start_desc}
 
 Starts a stopped instance.
 
 ### Usage
+{: #instance_start_desc}
 
 **instance-start** *instance_id*
 
@@ -56,10 +60,12 @@ Starts a stopped instance.
 {: #instance_restart}
 
 ### Description
+{: #instance_restart_desc}
 
 Restarts a running instance.
 
 ### Usage
+{: #instance_restart_use}
 
 **instance-restart** *instance_id*
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2017-04-12"
+lastupdated: "2017-04-23"
 
 ---
 
@@ -18,6 +18,7 @@ Use the command-line interface (CLI) to issue API calls to the DBaaS Manager.
 IBM provides the CLI tool dmclient for download.
 
 ## Before you begin
+{: #installing_dmclient_byb}
 
 <ol>
 <li>Make sure you have installed a Python version of at least 2.7.0.
@@ -80,7 +81,7 @@ Define the following environment variables:
             <li> mgmt03.hypersecuredbaas.ibm.com</li>
           </ul>
         </li>
-	      
+
         <li> REGION US-SOUTH		
           <ul>
             <li> mgmt06.hypersecuredbaas.ibm.com</li>
@@ -103,6 +104,7 @@ Define the following environment variables:
 </dl>
 
 ### Procedure
+{: #installing_dmclient_proc}
 
 Create a client environment script named openrc.
 

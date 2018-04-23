@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-23"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2017-12-12"
 # Running the command-line interface
 
 ## Procedure
+{: #running_cli_proc}
 
 To enter a CLI command:
 
@@ -33,6 +34,7 @@ commands and their parameters.</p>
 
 
 ## Example
+{: #running_cli_xmp}
 
 * The **help** CLI command displays a list of available CLI commands:
 ```

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-23"
 
 ---
 
@@ -23,10 +23,12 @@ These are the log operation commands:
 {: #log_list}
 
 ### Description
+{: #log_list_desc}
 
 Lists all the log files on an instance.
 
 ### Usage
+{: #log_list_use}
 
 **log-list** *instance_id*
 
@@ -39,10 +41,12 @@ Lists all the log files on an instance.
 {: #log_get}
 
 ### Description
+{: #log_get_desc}
 
 Downloads a log file from an instance.
 
 ### Usage
+{: #log_get_use}
 
 **log-get** *instance_id* *filename*
 

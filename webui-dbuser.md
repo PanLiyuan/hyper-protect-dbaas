@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-03-12"
+  years: 2017, 2018
+lastupdated: "2018-04-23"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2017-03-12"
 # Database users
 
 ##Before you begin
+{: #database_users_byb}
 
 In the {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS dashboard, select the Users tab.
 

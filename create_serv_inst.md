@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-03-14"
+lastupdated: "2018-04-19"
 
 ---
 
@@ -26,7 +26,7 @@ Where:
 | Parameter        |  Definition                                                    |
 | :--------------- |  :------------------------------------------------------------- |
 | "MyDBaaSIns03"   |  The name of the service instance (replace with a name of your own choosing). | 
-| "hypersecuredbaas" | The catalog name of Hyper Protect DBaaS. |
+| "hypersecuredbaas" | The catalog name of {{site.data.keyword.ihsdbaas_full}}. |
 | "lite"             | The Lite service plan; a different service plan may lead to a different toll rate. |
 | "eu-gb"            | The location where your new database will be located. (**Note:** Currently only **us-south** and **eu-gb** support Hyper Protect DBaaS.) |
 | "-p"               | A valid JSON string, which must contain the parameters in the following table. |

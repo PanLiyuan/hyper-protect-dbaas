@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-23"
 
 ---
 
@@ -26,10 +26,12 @@ These are the database user operation commands:
 {: #user_create}
 
 ### Description
+{: #user_create_desc}
 
 Creates one or more database users.
 
 ### Usage
+{: #user_create_use}
 
 **user-create** *cluster_id* *database.username* *password* \[*db_name* \[*db_name* ...\]\]
 
@@ -45,10 +47,12 @@ Creates one or more database users.
 {: #user_list}
 
 ### Description
+{: #user_list_desc}
 
 Lists all the database users.
 
 ### Usage
+{: #user_list_use}
 
 **user-list** *cluster_id*
 
@@ -61,10 +65,12 @@ Lists all the database users.
 {: #user_show}
 
 ### Description
+{: #user_show_desc}
 
 Shows details about a database user.
 
 ### Usage
+{: #user_show_use}
 
 **user-show** *cluster_id* *database.username*
 
@@ -78,10 +84,12 @@ Shows details about a database user.
 {: #user_delete}
 
 ### Description
+{: #user_delete_desc}
 
 Deletes a database user.
 
 ### Usage
+{: #user_delete_use}
 
 **user-delete** *cluster_id* *database.username*
 
