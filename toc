@@ -20,37 +20,43 @@ IBM Cloud Hyper Protect DBaaS
 		webui-dbinst.md
 		webui-dbuser.md
 
-	api.md
+    {: .topicgroup}
+	Using the DBaaS Manager APIs (for database cluster management)
+		api_auth.md
+		api_genl_proc.md
 
-	{: .topicgroup}
-    Using the command-line interface
-		dmclient-install.md
-		dmclient-run.md
+    {: .topicgroup}
+	Using the IBM Cloud APIs (for service instance management)
+		icloudapi_auth.md
+		curl_create_serv_inst.md
+		curl_delete_serv_inst.md
+		curl_list_serv_inst.md
 
-	{: .topicgroup}
-	Using Hyper Protect DBaaS with the IBM Cloud CLI
+    {: .topicgroup}
+	Using the CLI plugin with the IBM Cloud CLI tool
 		download_install.md
+		dbaasplugin_install.md
 		choose_endpoint.md
 		create_serv_inst.md
 		delete_serv_inst.md
-	{: .navgroup-end}
+     {: .navgroup-end}
 
-    {: .navgroup id="reference"}
-	[RESTful API](https://api.hypersecuredbaas.ibm.com/)
+     {: .navgroup id="reference"}
+	[DBaaS Manager API commands](https://api.hypersecuredbaas.ibm.com/)
 
-	{: .topicgroup}
-	Command-line interface
-		cli_list.md
-		cli_clusterop.md
-		cli_dbop.md
-		cli_instop.md
-		cli_logop.md
-		cli_dbuserop.md
-    {: .navgroup-end}
+     {: .topicgroup}
+	CLI plugin commands
+		dbaasplugin_list_cmds.md
+		dbaasplugin_cmds_cluster_op.md
+		dbaasplugin_cmds_db_op.md
+		dbaasplugin_cmds_instance_op.md
+		dbaasplugin_cmds_log_op.md
+		dbaasplugin_cmds_user_op.md
+     {: .navgroup-end}
 
-    {: .navgroup id="help"}
-	{: .topicgroup}
+     {: .navgroup id="help"}
+     {: .topicgroup}
 	Troubleshooting
 		help-support.md
 		help-issues.md
-    {: .navgroup-end}
+     {: .navgroup-end}

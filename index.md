@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-03-13"
+lastupdated: "2018-08-01"
 
 ---
 
@@ -60,8 +60,9 @@ intelligently schedules your requests based on the available resources.
 You can address requests to the DBaaS Manager through one of these interfaces:
 <ul>
 <li>The [Web User Interface](../../../docs/services/hyper-protect-dbaas/webui-cluster.html)</li>
-<li>The [RESTful API](../../../docs/services/hyper-protect-dbaas/api.html)</li>
-<li>The [command-line interface](../../../docs/services/hyper-protect-dbaas/dmclient-install.html) (CLI)</li>
+<li>The [DBaaS Manager APIs (for database cluster management)](../../../docs/services/hyper-protect-dbaas/api_genl_proc.html)</li>
+<li>The [IBM Cloud APIs (for service instance management)](../../../docs/services/hyper-protect-dbaas/curl_create_serv_inst.html)</li>
+<li>The [CLI plugin with the IBM Cloud CLI tool](../../../docs/services/hyper-protect-dbaas/download_install.html)</li>
 </ul>
 
 ## Accessing the database
@@ -79,7 +80,7 @@ To ensure secure data transfer, obtain a Certificate Authority (CA) file from
 <p>The Hyper Protect DBaaS dashboard provides the necessary information to connect to a database.
 <ol>
 <li>You can run the mongo shell command that is provided at the Hyper Protect DBaaS dashboard. Click on the icon next to the command to copy it to your clipboard.</li>
-<li>If the secure data connection fails with an SSL error, specify the obtained CA file to validate the server certificate. Add the parameter **--sslCAfile** to indicate the CA file.</li>
+<li>If the secure data connection fails with an SSL error, specify the obtained CA file to validate the server certificate. Add the parameter **--sslCAFile** to indicate the CA file.</li>
 </ol>
 <b>Example:</b>
 <pre><code class="hljs"># mongo 'mongodb:/&sol;&lt;<em>Hostname_1</em>&gt;&colon;&lt;<em>PortNumber_1</em>&gt;,\
