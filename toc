@@ -3,13 +3,13 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="hyper-protect-dbaas" audience="service" href="/docs/services/hyper-protect-dbaas/index.html"}
+{: .toc subcollection="hyper-protect-dbaas" audience="service" arm="3917562" href="/docs/services/hyper-protect-dbaas/index.html"}
 IBM Cloud Hyper Protect DBaaS
 
     {: .navgroup id="learn"}
     index.md
-	
-	[Express your needs](https://www.surveygizmo.com/s3/4263894/IBM-Cloud-Hyper-Protect-DBaaS-Survey)	
+
+	[Express your needs](https://www.surveygizmo.com/s3/4263894/IBM-Cloud-Hyper-Protect-DBaaS-Survey)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -26,15 +26,15 @@ IBM Cloud Hyper Protect DBaaS
     Using the command-line interface
 		dmclient-install.md
 		dmclient-run.md
-		
+
 	{: .topicgroup}
 	Using Hyper Protect DBaaS with the IBM Cloud CLI
 		download_install.md
 		choose_endpoint.md
 		create_serv_inst.md
-		delete_serv_inst.md		
+		delete_serv_inst.md
 	{: .navgroup-end}
-	
+
     {: .navgroup id="reference"}
 	[RESTful API](https://api.hypersecuredbaas.ibm.com/)
 
@@ -54,4 +54,3 @@ IBM Cloud Hyper Protect DBaaS
 		help-support.md
 		help-issues.md
     {: .navgroup-end}
-	
