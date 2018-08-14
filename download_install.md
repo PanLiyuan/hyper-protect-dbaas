@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-03-09"
+lastupdated: "2018-05-31"
 
 ---
 
@@ -12,7 +12,7 @@ lastupdated: "2018-03-09"
 {:codeblock: .codeblock}
 
 
-# Download and install
+# Downloading and installing the IBM Cloud CLI tool
 
 To download and install the IBM Cloud CLI tool, follow these steps:
 

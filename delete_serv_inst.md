@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-03-09"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -12,7 +12,7 @@ lastupdated: "2018-03-09"
 {:codeblock: .codeblock}
 
 
-# Delete a service instance
+# Deleting a service instance
 
 To review which services you have created, use this command:
 
@@ -22,9 +22,12 @@ To review which services you have created, use this command:
 If you wish to delete one of them, use the **bx resource service-instance-delete** command, as shown in this example:
 
 <pre><code class="hljs">~$ bx resource service-instance-delete MyDBaaSIns03
-Really delete the service instance MyDBaaSIns03 with ID crn:v1:bluemix:pub
+</code></pre>
+
+The CLI tool asks you to confirm the deletion: 
+
+<pre><code class="hljs">Really delete the service instance MyDBaaSIns03 with ID crn:v1:bluemix:pub
 da0e04a520:6884bf17-9950-450f-8bl1e-65487a72d812:: ?>
 </code></pre>
 
-As shown, the CLI tool asks you to confirm the deletion. 
 To confirm, type **yes**.
