@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-05-07"
+lastupdated: "2018-08-13"
 
 ---
 
@@ -12,34 +12,36 @@ lastupdated: "2018-05-07"
 {:codeblock: .codeblock}
 
 
-# Create a service instance
+# Creating a service instance
 
-To create a service instance, use the **bx resource service-instance-create** command, as shown in this example:
+To create a service instance, use the **bx resource service-instance-create** command, as shown in the following example. 
+(**Note:** In Windows, it is recommended that you use a Bash terminal such as Cygwin or Git Bash to enter the command.)
 
-<pre><code class="hljs">~$ bx resource service-instance-create MyDBaaSIns03 hyperprotectdbaas lite eu-gb -p
-'{"name":"DaaSTestCLICluster03", "admin_name":"admin", "password":"111111", "confirm_password":"111111",
-"db_type":"MongoDB", "license_agree":["agreed"]}'
-</code></pre>
+```javascript
+bx resource service-instance-create MyDBaaSIns03 hypersecuredbaas lite us-south -p '{"name":"DaaSTestCLICluster03", "admin_name":"admin", "password":"Pass1234", "confirm_password":"Pass1234", "db_type":"MongoDB", "license_agree":["agreed"]}'
+```
+{: codeblock}
 
-Where:
+Where the parameters have the following definitions:
 
 | Parameter        |  Definition                                                    |
 | :--------------- |  :------------------------------------------------------------- |
 | "MyDBaaSIns03"   |  The name of the service instance (replace with a name of your own choosing). | 
-| "hyperprotectdbaas" | The catalog name of {{site.data.keyword.ihsdbaas_full}}. |
+| "hypersecuredbaas" | The catalog name of {{site.data.keyword.ihsdbaas_full}}. |
 | "lite"             | The Lite service plan; a different service plan may lead to a different toll rate. |
-| "eu-gb"            | The location where your new database will be located. (**Note:** Currently only **us-south** and **eu-gb** support {{site.data.keyword.ihsdbaas_full}}.) |
+| "us-south"            | The location where your new database will be located. (**Note:** Currently only **us-south** and **eu-gb** support {{site.data.keyword.ihsdbaas_full}}.) |
 | "-p"               | A valid JSON string, which must contain the parameters in the following table. |
 
 
 | -p parameter       | Definition |
 | :--------------- |  :------------------------------------------------------------- |
 | "name"             | The name of your database cluster. |
-| "db_type"          | The type of database service to be created. (**Note:** Currently only MongoDB is supported.) |
+| "db_type"          | The type of database service to be created. (**Note:** Currently MongoDB is supported.) |
 | "admin_name"       | The administrator's user name of the database to be created. |
 | "password"         | The adminstrator's user password of the database to be created. |
 | "confirm_password" | The same password. |
 | "license_agree"    | A value of **agreed** indicates acceptance of the license agreement, which is required to use {{site.data.keyword.ihsdbaas_full}}. |
+
 
 
 After you enter the command, the state of the new service instance might temporarily appear as **inactive**, as shown in this example:
@@ -48,7 +50,7 @@ After you enter the command, the state of the new service instance might tempora
 OK
 Service instance MYDBaaSIns03 was created.
 Name           Location   State      Type               Tags
-MyDBaaSIns03   eu-gb      inactive   service_instance
+MyDBaaSIns03   us-south   inactive   service_instance
 ~$
 </code></pre>
 
@@ -60,7 +62,7 @@ Retrieving service instance in resource group default and a
 m.com...
 OK
 Name           Location   State      Type               Tags
-MyDBaaSIns03   eu-gb      active     service_instance
+MyDBaaSIns03   us-south   active     service_instance
 ~$
 </code></pre>
 
