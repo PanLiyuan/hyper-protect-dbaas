@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-03-13"
+lastupdated: "2018-08-10"
 
 ---
 
@@ -12,7 +12,7 @@ lastupdated: "2018-03-13"
 {:codeblock: .codeblock}
 
 
-# Choose a service endpoint to log into
+# Choosing a service endpoint to log into
 
 IBM Cloud provides many service endpoints in various geographical regions that you can log into. 
 To find a service endpoint near your geographical location, use the **bx regions** command as shown in this example:
@@ -35,12 +35,13 @@ To log into an IBM Cloud service endpoint, follow these steps:
 1. Enter the **bx login** command, indicating that you are using Single Sign-On (SSO) and specifying the URL of the endpoint you wish to log into, as shown in this example:
 
    <pre><code class="hljs">~$ bx login --sso -a https://api.ng.bluemix.net
-   API endpoint: https://api.ng.bluemix.net
-
-   One Time Code (Get one at https://iam.au-syd.bluemix.net/identity/passcode)
+      API endpoint: https://api.ng.bluemix.net
    </code></pre>
    
-   As shown, the system displays a URL for a web page that will provide you with a one-time passcode.
+   The system displays a URL for a web page that will provide you with a one-time passcode:
+   
+   <pre><code class="hljs">One Time Code (Get one at https://iam.au-syd.bluemix.net/identity/passcode)
+   </code></pre>   
  
 2. Copy the URL from your system console and paste it into your web browser.
  
@@ -48,9 +49,7 @@ To log into an IBM Cloud service endpoint, follow these steps:
 
 3. Copy the passcode from the web page and paste it into your system console command line. 
 
-   The passcode will not be displayed in the command line; 
-   however, once the password has been authenticated, you will receive an 
-   **OK** message indicating that you are logged in, as shown in this example:
+   The passcode will not be displayed in the command line; however, once the password has been authenticated, you will receive an **OK** message indicating that you are logged in, as shown in this example:
 
    <pre><code class="hljs">One Time Code (Get one at https://iam.au-syd.bluemix.net/identity/passcode)>
    Authenticating...
@@ -59,7 +58,7 @@ To log into an IBM Cloud service endpoint, follow these steps:
 
 For more information about the **bx login** command parameters, see "bluemix login" at this URL:
 
-(https://console.bluemix.net/docs/cli/reference/bluemix_cli/bx_cli.html#bluemix_login)
+https://console.bluemix.net/docs/cli/reference/bluemix_cli/bx_cli.html#bluemix_login
 
 **Note:** When using {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS, you might need to create spaces in more than one region 
 and switch between regions using the **bx target** command. For details about how to do this, see 
