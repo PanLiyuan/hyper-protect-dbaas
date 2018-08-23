@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-08-10"
+lastupdated: "2018-08-15"
 
 ---
 
@@ -25,10 +25,10 @@ en-de      Germany          IBM        Production   eu-de.bluemix.net     https:
 au-syd     Sydney           IBM        Production   au-syd.bluemix.net    http://api.au-syd.bluemix.net     public
 us-east    US East          IBM        Production   us-east.bluemix.net   https://api.us-east.bluemix.net   public
 us-south   US South         IBM        Production   ng.bluemix.net        https://api.ng.bluemix.net        public
-en-gb      United Kingdom   IBM        Production   eu-gb.bluemix.net     https://api.eu-gb.bluemix.net     public
+eu-gb      United Kingdom   IBM        Production   eu-gb.bluemix.net     https://api.eu-gb.bluemix.net     public
 </code></pre>
 
-**Note:** Currently {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS is supported only on the **us-south** and **en-gb** regions.
+**Note:** Currently {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS is supported only on the **us-south** and **eu-gb** regions.
 
 To log into an IBM Cloud service endpoint, follow these steps:
 

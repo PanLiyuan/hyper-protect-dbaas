@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-03-12"
+lastupdated: "2017-03-15"
 
 ---
 
@@ -30,7 +30,7 @@ lastupdated: "2017-03-12"
     <dd>If no resource group is selectable, you can create one on the IBM Cloud dashboard.</dd>
 
 		<dt>Cluster/Replicaset Name:</dt>
-		<dd>A name for the database cluster.</dd>
+		<dd>A name for the database cluster. **Note:** The term "Replicaset Name" is specific to MongoDB.</dd>
 
 		<dt>Database Admin Name:</dt>
 		<dd>A user ID for the database administrator (DBA).</dd>
@@ -42,7 +42,7 @@ lastupdated: "2017-03-12"
     <dd>Confirm the password for the DBA user ID.</dd>
 
 		<dt>Database Type:</dt>
-		<dd>Select the database type. Currently, only MongoDB is supported.</dd>
+		<dd>Select the database type.</dd>
 
     <dt>License Agreement:</dt>
     <dd>After reading the license agreement, check the box to confirm your agreement.</dd>

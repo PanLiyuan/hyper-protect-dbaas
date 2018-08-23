@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-23"
+lastupdated: "2018-08-15"
 
 ---
 
@@ -24,7 +24,7 @@ In the {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS dashboard, select th
 ##Creating a database
 
 1. Click **Create**.
-2. Enter a database name and a collection.
+2. Enter a database name (for either MongoDB or PostgreSQL) and a collection (for MongoDB only).
 3. Click **Submit**.
 
 ##Deleting a database

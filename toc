@@ -1,4 +1,5 @@
 <!-- Markdown Navigation -->
+<!-- [Express your needs](https://www.surveygizmo.com/s3/4263894/IBM-Cloud-Hyper-Protect-DBaaS-Survey) -->
 
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
@@ -8,8 +9,6 @@ IBM Cloud Hyper Protect DBaaS
 
     {: .navgroup id="learn"}
     index.md
-
-	[Express your needs](https://www.surveygizmo.com/s3/4263894/IBM-Cloud-Hyper-Protect-DBaaS-Survey)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-07"
+lastupdated: "2018-08-17"
 
 ---
 
@@ -39,7 +39,7 @@ Creates a database user.
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
 | *resource_name*     |  The name of the cluster resource.        |
-| *auth_db.username* | The authentication database name and user name, separated by a period, to be assigned to the database user being created. This is how database users are identified for MongoDB. |
+| *auth_db.username* | The authentication database name and user name, separated by a period, to be assigned to the database user being created. This is how database users are identified for MongoDB and PostgreSQL. |
 | *password*    |  The login password to be assigned to the user.      |
 | *db_name*    |  Optional; this specifies a database for which the user will have read and write access.      |
 
@@ -79,7 +79,7 @@ Shows details about a database user.
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
 | *resource_name*    |  The name of the cluster resource.      |
-| *auth_db.username*    |  The authentication database name and user name, separated by a period, that identify the database user. This is how database users are identified for MongoDB. |
+| *auth_db.username*    |  The authentication database name and user name, separated by a period, that identify the database user. This is how database users are identified for MongoDB and PostgreSQL. |
 
 
 ## user-delete command
@@ -98,4 +98,4 @@ Deletes a database user.
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
 | *resource_name*    |  The name of the cluster resource.      |
-| *auth_db.username*    |  The authentication database name and user name, separated by a period, that identify the database user. This is how database users are identified for MongoDB. |
+| *auth_db.username*    |  The authentication database name and user name, separated by a period, that identify the database user. This is how database users are identified for MongoDB and PostgreSQL. |

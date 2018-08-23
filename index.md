@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-08-01"
+lastupdated: "2018-08-15"
 
 ---
 
@@ -17,9 +17,9 @@ It offers a flexible and scalable platform that allows you to quickly and easily
 provision and manage your database of choice.
 {: shortdesc}
 
-This {{site.data.keyword.cloud_notm}} offering provides MongoDB database clusters. Each database
-cluster comprises one primary database instance and two database instance
-replicas that back up the primary one.
+This {{site.data.keyword.cloud_notm}} offering provides MongoDB and PostgreSQL database clusters. Each database
+cluster comprises one primary/master database instance and two database instance
+replicas/slaves that back up the primary/master one.
 
 With {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS, you can create database clusters in the {{site.data.keyword.cloud_notm}},
 manage database instances, administer database users, and create and
@@ -67,8 +67,9 @@ You can address requests to the DBaaS Manager through one of these interfaces:
 
 ## Accessing the database
 
-After creating a database, you can use the mongo shell, your favorite
+After creating a MongoDB database, you can use the mongo shell, your favorite
 MongoDB driver, or tools like MongoDB Compass to manage the database itself.
+For PostgreSQL, you can use pgadmin or your favorite PostgreSQL tool to manage the databases.
 
 ### Before you begin
 
@@ -79,7 +80,7 @@ To ensure secure data transfer, obtain a Certificate Authority (CA) file from
 
 <p>The Hyper Protect DBaaS dashboard provides the necessary information to connect to a database.
 <ol>
-<li>You can run the mongo shell command that is provided at the Hyper Protect DBaaS dashboard. Click on the icon next to the command to copy it to your clipboard.</li>
+<li>For MongoDB, you can run the mongo shell command that is provided at the Hyper Protect DBaaS dashboard. Click on the icon next to the command to copy it to your clipboard.</li>
 <li>If the secure data connection fails with an SSL error, specify the obtained CA file to validate the server certificate. Add the parameter **--sslCAFile** to indicate the CA file.</li>
 </ol>
 <b>Example:</b>

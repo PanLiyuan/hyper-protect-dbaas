@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-08-13"
+lastupdated: "2018-08-15"
 
 ---
 
@@ -36,7 +36,7 @@ Where the parameters have the following definitions:
 | -p parameter       | Definition |
 | :--------------- |  :------------------------------------------------------------- |
 | "name"             | The name of your database cluster. |
-| "db_type"          | The type of database service to be created. (**Note:** Currently MongoDB is supported.) |
+| "db_type"          | The type of database service to be created. **Note:** MongoDB and PostgreSQL are supported. |
 | "admin_name"       | The administrator's user name of the database to be created. |
 | "password"         | The adminstrator's user password of the database to be created. |
 | "confirm_password" | The same password. |
