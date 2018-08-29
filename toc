@@ -9,6 +9,8 @@ IBM Cloud Hyper Protect DBaaS
 
     {: .navgroup id="learn"}
     index.md
+    [Video: Data security and privacy using IBM Cloud Hyper Protect DBaaS](https://www.youtube.com/watch?v=__IBP727IL8)
+    [Video: Get started with IBM Cloud Hyper Protect DBaaS](https://www.youtube.com/watch?v=WfTWzjYTgCs)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -38,6 +40,8 @@ IBM Cloud Hyper Protect DBaaS
 		choose_endpoint.md
 		create_serv_inst.md
 		delete_serv_inst.md
+		
+	[Programming with Swift using a Hyper Protect DBaaS provisioned MongoDB](https://console.bluemix.net/docs/swift/hypersecure_dbaas/database-cluster.html#creating-a-highly-available-and-secure-database)
      {: .navgroup-end}
 
      {: .navgroup id="reference"}

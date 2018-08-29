@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-08-15"
+lastupdated: "2018-08-29"
 
 ---
 
@@ -39,6 +39,8 @@ through well-defined RESTful APIs.</p></li>
 high availability.</li>
 </ul>
 
+For more information, watch: [Data security and privacy using IBM Cloud Hyper Protect DBaaS](https://www.youtube.com/watch?v=__IBP727IL8)
+
 ##Creating a database cluster
 
 To create a database cluster, you simply enter the required values in the
@@ -68,7 +70,7 @@ You can address requests to the DBaaS Manager through one of these interfaces:
 ## Accessing the database
 
 After creating a MongoDB database, you can use the mongo shell, your favorite
-MongoDB driver, or tools like MongoDB Compass to manage the database itself.
+MongoDB driver, or tools like MongoDB Compass to manage the database itself. 
 For PostgreSQL, you can use pgadmin or your favorite PostgreSQL tool to manage the databases.
 
 ### Before you begin
@@ -107,4 +109,6 @@ Where:
 
 ### Other tools
 
-For other tools, such as MongoDB Compass, Hyper Protect DBaaS supports the *SSL server certificate validation* to connect to the host.  If needed, use the provided CA file.
+For other tools, such as MongoDB Compass, Hyper Protect DBaaS supports the *SSL server certificate validation* to connect to the host.  If needed, use the provided CA file. 
+
+For more information, watch: [Get started with IBM Cloud Hyper Protect DBaaS](https://www.youtube.com/watch?v=WfTWzjYTgCs)
