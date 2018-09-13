@@ -20,6 +20,7 @@ IBM Cloud Hyper Protect DBaaS
 		webui-db.md
 		webui-dbinst.md
 		webui-dbuser.md
+		webui-dblogs.md
 
     {: .topicgroup}
 	Using the DBaaS Manager APIs (for database cluster management)
