@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-08-13"
+  years: 2017, 2018
+lastupdated: "2018-09-18"
 
 ---
 
@@ -29,22 +29,12 @@ lastupdated: "2018-08-13"
     <th> Region </th>
   </tr>
   <tr>
-    <td> mgmt02.hypersecuredbaas.ibm.com </td>
-    <td> 20000 </td>
-    <td> eu-gb </td>
-  </tr>
-    <tr>
-    <td> mgmt03.hypersecuredbaas.ibm.com </td>
+    <td> dbaas200.hypersecuredbaas.ibm.com </td>
     <td> 20000 </td>
     <td> eu-gb </td>
   </tr>
   <tr>
-    <td> mgmt06.hypersecuredbaas.ibm.com </td>
-    <td> 20000 </td>
-    <td> us-south </td>
-  </tr>
-    <tr>
-    <td> mgmt07.hypersecuredbaas.ibm.com </td>
+    <td> dbaas300.hypersecuredbaas.ibm.com </td>
     <td> 20000 </td>
     <td> us-south </td>
   </tr>
@@ -97,10 +87,8 @@ Where:
 <dt> &lt;<em>DBaaSManager</em>&gt; </dt>
 <dd>Is the host name of a DBaaS Manager. Valid host names are:
 <ul>
-<li>mgmt02.hypersecuredbaas.ibm.com</li>
-<li>mgmt03.hypersecuredbaas.ibm.com</li>
-<li>mgmt06.hypersecuredbaas.ibm.com</li>
-<li>mgmt07.hypersecuredbaas.ibm.com</li>
+<li>dbaas200.hypersecuredbaas.ibm.com</li>
+<li>dbaas300.hypersecuredbaas.ibm.com</li>
 </ul>
 </dd>
 <dt> &lt;<em>PortNumber</em>&gt; </dt>
