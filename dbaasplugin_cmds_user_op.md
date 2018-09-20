@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-08-17"
+lastupdated: "2018-09-13"
 
 ---
 
@@ -34,12 +34,19 @@ Creates a database user.
 ### Usage
 {: #user_create_use}
 
+***For MongoDB:***
+
 **bx dbaas user-create** *resource_name* *auth_db.username* *password* [*db_name* [*db_name* [...]]]
+
+***For PostgreSQL:***
+
+**bx dbaas user-create** *resource_name* *username* *password* [*db_name* [*db_name* [...]]]
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
 | *resource_name*     |  The name of the cluster resource.        |
-| *auth_db.username* | The authentication database name and user name, separated by a period, to be assigned to the database user being created. This is how database users are identified for MongoDB and PostgreSQL. |
+| *auth_db.username* | Specific to MongoDB: The authentication database name and user name, separated by a period, to be assigned to the database user being created. |
+| *username* | Specific to PostgreSQL: The user name to be assigned to the database user being created. |
 | *password*    |  The login password to be assigned to the user.      |
 | *db_name*    |  Optional; this specifies a database for which the user will have read and write access.      |
 
@@ -74,12 +81,19 @@ Shows details about a database user.
 ### Usage
 {: #user_show_use}
 
+***For MongoDB:***
+
 **bx dbaas user-show** *resource_name* *auth_db.username*
+
+***For PostgreSQL:***
+
+**bx dbaas user-show** *resource_name* *username*
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
 | *resource_name*    |  The name of the cluster resource.      |
-| *auth_db.username*    |  The authentication database name and user name, separated by a period, that identify the database user. This is how database users are identified for MongoDB and PostgreSQL. |
+| *auth_db.username* | Specific to MongoDB: The authentication database name and user name, separated by a period, to be assigned to the database user being created. |
+| *username* | Specific to PostgreSQL: The user name to be assigned to the database user being created. |
 
 
 ## user-delete command
@@ -93,9 +107,16 @@ Deletes a database user.
 ### Usage
 {: #user_delete_use}
 
+***For MongoDB:***
+
 **bx dbaas user-delete** *resource_name* *auth_db.username*
+
+***For PostgreSQL:***
+
+**bx dbaas user-delete** *resource_name* *username*
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
 | *resource_name*    |  The name of the cluster resource.      |
-| *auth_db.username*    |  The authentication database name and user name, separated by a period, that identify the database user. This is how database users are identified for MongoDB and PostgreSQL. |
+| *auth_db.username* | Specific to MongoDB: The authentication database name and user name, separated by a period, to be assigned to the database user being created. |
+| *username* | Specific to PostgreSQL: The user name to be assigned to the database user being created. |

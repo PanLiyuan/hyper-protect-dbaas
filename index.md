@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-03"
+lastupdated: "2018-09-20"
 
 ---
 
@@ -83,11 +83,14 @@ For PostgreSQL, you can use pgadmin or your favorite PostgreSQL tool to manage t
 To ensure secure data transfer, obtain a Certificate Authority (CA) file from
 <https://api.hypersecuredbaas.ibm.com/cert.pem>, and copy it to the appropriate directory.
 
-### mongo shell
+### Connecting to a database
 
-<p>The Hyper Protect DBaaS dashboard provides the necessary information to connect to a database.
-<ol>
-<li>For MongoDB, you can run the mongo shell command that is provided at the Hyper Protect DBaaS dashboard. Click on the icon next to the command to copy it to your clipboard.</li>
+The Hyper Protect DBaaS dashboard provides the necessary information to connect to a database.
+
+#### mongo shell 
+
+For MongoDB, you can run the mongo shell command that is provided at the Hyper Protect DBaaS dashboard:
+<ol><li>Click on the icon next to the command to copy it to your clipboard.</li>
 <li>If the secure data connection fails with an SSL error, specify the obtained CA file to validate the server certificate. Add the parameter **--sslCAFile** to indicate the CA file.</li>
 </ol>
 <b>Example:</b>
@@ -110,11 +113,28 @@ Where:
     <dd> Is the password for the DBA user ID as specified in the
     service configuration screen </dd>
 </dl>
-</p>
+
+#### PostgreSQL
+
+For PostgreSQL, you can use this command:
+<pre><code class="hljs">psql "host=&lt;<em>Hostname</em>&gt; user=&lt;<em>Username</em>&gt; port=&lt;<em>PortNumber</em>&gt; sslmode=verify-full sslrootcert=&lt;<em>CAFilePath</em>&gt;"</code></pre>
+Where:
+<dl>
+  <dt> &lt;<em>Hostname</em>&gt; </dt>
+    <dd> Is the hostname of the database cluster </dd>
+  <dt> &lt;<em>Username</em>&gt; </dt> 
+    <dd> Is the username for the DBA as specified in the service configuration screen </dd>
+  <dt> &lt;<em>PortNumber</em>&gt; </dt>
+    <dd> Is the port number of the database cluster </dd>
+  <dt> &lt;<em>CAFilePath</em>&gt; </dt>
+    <dd> Is the path of the CA file </dd>  
+</dl>
+
+**Note:** The **psql** command will not verify the database cluster certificate if the options **sslmode** and **sslrootcert** are not provided.
 
 ### Other tools
 
-For other tools, such as MongoDB Compass, Hyper Protect DBaaS supports the *SSL server certificate validation* to connect to the host.  If needed, use the provided CA file. 
+For other tools, such as MongoDB Compass and pgAdmin, Hyper Protect DBaaS supports *SSL server certificate validation* to connect to the host.  If needed, use the provided CA file. 
 
 For more information, watch: 
 <ul>
