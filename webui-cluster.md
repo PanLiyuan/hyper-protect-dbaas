@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-03-15"
+  years: 2017, 2018
+lastupdated: "2018-10-05"
 
 ---
 
@@ -54,12 +54,9 @@ lastupdated: "2017-03-15"
 </li>
 <li>Click **Create**.
 
-<p>The IBM Cloud dashboard is displayed. You might have to refresh your browser to see the new cluster, 
-which is listed in the Services section.</p></li>
+<p>The IBM Cloud dashboard is displayed.</p></li>
 
-<li>When you select the service, the cluster information is displayed.</li>
-<li>In the Manage tab of the cluster information, click **OPEN**.
-	<p>The IBM Cloud Hyper Protect DBaaS dashboard is displayed.</p></li>
+<li>Select the service to display the IBM Cloud Hyper Protect DBaaS dashboard.</li>
 </ol>
 
 ## Listing all database clusters
