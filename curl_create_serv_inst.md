@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-08-10"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -48,10 +48,10 @@ To create a service instance using the RESTful API, follow these instructions:
    
    b. Make note of the ID of the resource group in which you want to create a DBaaS service instance, and proceed to the next step.
 
-2. To create a DBaaS service instance in the desired resource group, invoke the POST RESTful API as shown in this example:
+2. To create a DBaaS service instance in the wanted resource group, invoke the POST RESTful API as shown in this example:
   
    ```javascript
-      curl -X POST -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer eyJraWQiOiIyMDE3MT*** ***3V4pMYrOvMniLA" --data '{"name":"CreatedByRESTfulAPI01", "region_id": "us-south", "resource_group_id": "6ae3***738cd", "resource_plan_id": "5bb4a184-fcb3-45ee-876a-f28f62a59c29", "parameters":{"name":"RESTfulAPITest01", "admin_name":"admin", "password":"Pass1234", "confirm_password":"Pass1234","db_type":"MongoDB","license_agree":["agreed"]}}' https://resource-controller.ng.bluemix.net/v1/resource_instances 
+      curl -X POST -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer eyJraWQiOiIyMDE3MT*** ***3V4pMYrOvMniLA" --data '{"name":"CreatedByRESTfulAPI01", "region_id": "us-south", "resource_group_id": "6ae3***738cd", "resource_plan_id": "357878ba-badd-4a92-ad94-1b3aa60be2d5","parameters":{"name":"RESTfulAPITest01", "admin_name":"admin", "password":"Pass4user", "confirm_password":"Pass4user","license_agree":["agreed"]}}' https://resource-controller.ng.bluemix.net/v1/resource_instances
      ```
    {: codeblock}
 
@@ -61,18 +61,25 @@ To create a service instance using the RESTful API, follow these instructions:
 | :---------------    | :------------------------------------------------------------- |  
 | Authorization:      | The access token.  |
 | name:               | The name of the service instance to be created. This name will be shown in the service list. |
-| region_id:          | The region in which you want to create the DBaaS service instance. (**Note:** Currently, the only valid values are "eu-gb" and "us-south".) |
+| region_id:          | The region in which you want to create the DBaaS service instance. (**Note:** Currently, the only valid values are "eu-gb", "us-south", and "us-east".) |
 | resource_group_id:  | The ID of the resource group in which the instance is to be created. |
-| resource_plan_id:   | The resource service plan to be used. For the DBaaS “Lite” service plan, the only valid value is **"5bb4a184-fcb3-45ee-876a-f28f62a59c29"**. |
-| parameters:         | A valid JSON string containing the items in the following table. |  
-  
-| "parameters" item   | Definition |
+| resource_plan_id:   | The resource service plan to be used. Valid plans are listed in the following table. |
+
+| Plan name           | Plan ID                                                    |
+| :---------------    | :------------------------------------------------------------ |  
+| mongodb-m1-free      | 357878ba-badd-4a92-ad94-1b3aa60be2d5  |
+| mongodb-m2           | 7a86679f-1437-426f-b379-2e8d958decd8 |
+| postresql-m1-free    | dd786596-3554-48e8-8567-34789ba2076f |
+| postresql-m2         | bfd24a42-2a8c-47ea-a8c5-1bef9f1ad653 |
+
+   And where "parameters:" is a valid JSON string specifying the following items: 
+
+| "parameters:" item   | Definition |
 | :--------------- |  :------------------------------------------------------------- |
 | name:            | The name of the cluster. This name will be shown in the cluster dashboard. |
 | admin_name:      | The administrator's user name. |
-| password:         | The administrator's password. It must contain at least 8 characters, at least 1 upper case letter, at least 1 lower case letter, at least 1 numeric; and it cannot equal the *admin_name*. |
+| password:         | The administrator's password. It must contain at least 8 characters, at least 1 uppercase letter, at least 1 lowercase letter, at least 1 numeric; and it cannot equal the *admin_name*. |
 | confirm_password: | The same password. |
-| db_type:          | The type of database service to be created. (**Note:** Currently only **"MongoDB"** and **"PostgreSQL"** are supported.) |
 | license_agree:    | **"agreed"**. This indicates acceptance of the license agreement and is required in order to proceed. |
    
    The system returns output similar to this example:

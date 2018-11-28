@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-07"
+lastupdated: "2018-11-26"
 
 ---
 
@@ -30,7 +30,7 @@ Lists all the log files on an instance.
 ### Usage
 {: #log_list_use}
 
-**bx dbaas log-list** *resource_name* *instance_id*
+**ibmcloud dbaas log-list** *resource_name* *instance_id*
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
@@ -49,7 +49,7 @@ Downloads a log file from an instance.
 ### Usage
 {: #log_get_use}
 
-**bx dbaas log-get** *resource_name* *instance_id* *filename*
+**ibmcloud dbaas log-get** *resource_name* *instance_id* *filename*
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |

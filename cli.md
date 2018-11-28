@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-03-12"
+lastupdated: "2017-11-20"
 
 ---
 
@@ -163,7 +163,7 @@ These are the instance operation commands:
 
 #### Description
 
-Stops an instance (that is, a replication meber of the cluster).
+Stops an instance (that is, a replication member of the cluster).
 
 #### Usage
 

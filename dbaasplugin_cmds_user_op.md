@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-13"
+lastupdated: "2018-11-26"
 
 ---
 
@@ -36,11 +36,11 @@ Creates a database user.
 
 ***For MongoDB:***
 
-**bx dbaas user-create** *resource_name* *auth_db.username* *password* [*db_name* [*db_name* [...]]]
+**ibmcloud dbaas user-create** *resource_name* *auth_db.username* *password* [*db_name* [*db_name* [...]]]
 
 ***For PostgreSQL:***
 
-**bx dbaas user-create** *resource_name* *username* *password* [*db_name* [*db_name* [...]]]
+**ibmcloud dbaas user-create** *resource_name* *username* *password* [*db_name* [*db_name* [...]]]
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
@@ -62,7 +62,7 @@ Lists all the database users.
 ### Usage
 {: #user_list_use}
 
-**bx dbaas user-list** *resource_name*
+**ibmcloud dbaas user-list** *resource_name*
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
@@ -83,11 +83,11 @@ Shows details about a database user.
 
 ***For MongoDB:***
 
-**bx dbaas user-show** *resource_name* *auth_db.username*
+**ibmcloud dbaas user-show** *resource_name* *auth_db.username*
 
 ***For PostgreSQL:***
 
-**bx dbaas user-show** *resource_name* *username*
+**ibmcloud dbaas user-show** *resource_name* *username*
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
@@ -109,11 +109,11 @@ Deletes a database user.
 
 ***For MongoDB:***
 
-**bx dbaas user-delete** *resource_name* *auth_db.username*
+**ibmcloud dbaas user-delete** *resource_name* *auth_db.username*
 
 ***For PostgreSQL:***
 
-**bx dbaas user-delete** *resource_name* *username*
+**ibmcloud dbaas user-delete** *resource_name* *username*
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |

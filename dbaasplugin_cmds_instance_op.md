@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-07"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -32,7 +32,7 @@ Stops an instance (a replication member of the cluster).
 ### Usage
 {: #instance_stop_use}
 
-**bx dbaas instance-stop** *resource_name* *instance_id*
+**ibmcloud dbaas instance-stop** *resource_name* *instance_id*
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
@@ -51,7 +51,7 @@ Starts a stopped instance.
 ### Usage
 {: #instance_start_use}
 
-**bx dbaas instance-start** *resource_name* *instance_id*
+**ibmcloud dbaas instance-start** *resource_name* *instance_id*
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
@@ -71,7 +71,7 @@ Restarts a running instance.
 ### Usage
 {: #instance_restart_use}
 
-**bx dbaas instance-restart** *resource_name* *instance_id*
+**ibmcloud dbaas instance-restart** *resource_name* *instance_id*
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |

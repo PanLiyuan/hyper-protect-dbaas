@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-08-10"
+lastupdated: "2018-11-26"
 
 ---
 
@@ -46,7 +46,7 @@ To obtain them, follow these instructions:
      
      **Important:** Make a note of the provided API key before you close the window.
 
-2. To ensure secure data transfer, obtain a Certificate Authority (CA) file from https://api.hypersecuredbaas.ibm.com/cert.pem and copy it to an appropriate directory such as **/etc/ssl/certs/**.
+2. To ensure secure data transfer, obtain a certificate authority (CA) file from https://api.hypersecuredbaas.ibm.com/cert.pem and copy it to an appropriate directory such as **/etc/ssl/certs/**.
 
 3. Obtain an access token with this command:
 

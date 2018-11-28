@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2017-04-23"
+lastupdated: "2017-11-26"
 
 ---
 
@@ -106,7 +106,7 @@ Define the following environment variables:
 ### Procedure
 {: #installing_dmclient_proc}
 
-Create a client environment script named openrc.
+Create a client environment script named **openrc**.
 
 Enter the following lines:
 <table role="presentation">

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-18"
+lastupdated: "2018-11-23"
 
 ---
 
@@ -14,29 +14,38 @@ lastupdated: "2018-09-18"
 
 
 # General instructions for using the DBaaS Manager APIs
-
+{: #gen_inst_mgr_apis}
 <ol>
 <li>Specify the data of your request in JSON format.
 </li>
 <li>Send the API request to the DBaaS Manager.
 <p>You can use a RESTful API client, such as cURL, to handle a request.
 </p>
-<p>DBaaS Managers are available at:
+<p>DBaaS Managers are available here:
 <table>
   <tr>
     <th> Host name </th>
     <th> Port number </th>
     <th> Region </th>
+    <th> City </th>
   </tr>
   <tr>
     <td> dbaas200.hypersecuredbaas.ibm.com </td>
     <td> 20000 </td>
     <td> eu-gb </td>
+    <td> London </td>
   </tr>
   <tr>
     <td> dbaas300.hypersecuredbaas.ibm.com </td>
     <td> 20000 </td>
     <td> us-south </td>
+    <td> Dallas </td>
+  </tr>
+   <tr>
+    <td> dbaas400.hyperprotectdbaas.cloud.ibm.com </td>
+    <td> 20000 </td>
+    <td> us-east </td>
+    <td> Washington </td>
   </tr>
 </table>
 </p>	 
@@ -52,7 +61,7 @@ To create a database cluster, issue direct API calls based on a JSON formatted
 configuration request. The cluster name is also used as the replica set name for the
 database.
 
-clusterconfig.json:
+clusterconfig.json contents are shown here:
 
 ```javascript
   {
@@ -68,7 +77,7 @@ clusterconfig.json:
           },  
           "db_admin": {
               "user_name": "admin",
-              "password": "123456"
+              "password": "Passw0rd"
           }   
       }   
   }
@@ -83,18 +92,17 @@ curl -k -i -X POST -d '@clusterconfig.json' -H "Content-Type: application/json" 
 Where:
 <dl>
 <dt> &lt;<em>accessToken</em>&gt; </dt>
-<dd>Is the previously-obtained access token; see [Setting up authentication to use DBaaS Manager APIs](../../../docs/services/hyper-protect-dbaas/api_auth.html). (**Note:** If the access token has expired, return to those instructions and request a new token.) </dd>
+<dd>Is the previously obtained access token; see [Setting up authentication to use DBaaS Manager APIs](../../../docs/services/hyper-protect-dbaas/api_auth.html). (**Note:** If the access token has expired, return to those instructions and request a new token.) </dd>
 <dt> &lt;<em>DBaaSManager</em>&gt; </dt>
-<dd>Is the host name of a DBaaS Manager. Valid host names are:
-<ul>
-<li>dbaas200.hypersecuredbaas.ibm.com</li>
-<li>dbaas300.hypersecuredbaas.ibm.com</li>
-</ul>
+<dd>Is the host name of a DBaaS Manager. Valid host names are listed in [General instructions for using the DBaaS Manager APIs](#gen_inst_mgr_apis).
 </dd>
 <dt> &lt;<em>PortNumber</em>&gt; </dt>
-<dd>Is the port number of the DBaaS Manager. The valid port number is:
+<dd>Is the port number of the DBaaS Manager. This is the valid port number:
 <p>20000</p>
 </dd>
-<dt> &lt;<em>usrID</em>&gt; </dt>
-<dd>Is the previously-obtained user ID.</dd>
+<dt> &lt;<em>userID</em>&gt; </dt>
+<dd>Is the previously obtained user ID.</dd>
 </dl>
+
+**Note:** The database administrator does not have SUPERUSER authority. 
+The authorities of the database administrator are limited to INHERIT, CREATEROLE, CREATEDB, LOGIN, and REPLICATION.

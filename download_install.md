@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-05-31"
+  years: 2017, 2018
+lastupdated: "2018-11-26"
 
 ---
 
@@ -22,7 +22,7 @@ To download and install the IBM Cloud CLI tool, follow these steps:
 
 2. Download the tool by clicking on the version that matches your operating system. 
 
-3. After downloading, complete the installation using the method appropriate for your operating system:
+3. After you download the tool, complete the installation by using the method appropriate for your operating system:
 
    - For MacOS and Windows, simply run the installer.
 
@@ -30,7 +30,7 @@ To download and install the IBM Cloud CLI tool, follow these steps:
 
    **Note:** You might need administrator privilege to complete the installation.
 
-After the installation is completed, the **bx** command is available on your system console.
+After the installation is completed, the **ibmcloud** command is available on your system console.
 
 For more information, see "Getting started with IBM Cloud CLI" at this URL:
 

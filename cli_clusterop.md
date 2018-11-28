@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -31,7 +31,7 @@ Creates a database cluster.
 
 The command returns immediately with cluster status of BUILD. After about 30 seconds, a cluster status of RUNNING becomes available. To get the updated cluster status, run the [cluster-list](#cluster_list) or [cluster-show](#cluster_show) command.
 
-This command requires that you accept the IBM license. Therefore, when issuing the command, preface it with the **\./dmclient --accept-license** option, as in this example:
+This command requires you to accept the IBM license. Therefore, when you enter the command, preface it with the **\./dmclient --accept-license** option, as in this example:
 
 <pre><code class="hljs"># ./dmclient --accept-license cluster-create myClusterName user password
 </code></pre>
@@ -53,7 +53,7 @@ This command requires that you accept the IBM license. Therefore, when issuing t
 ### Description
 {: #cluster_list_desc}
 
-Lists all the clusters that have been created.
+Lists all the clusters that were created.
 
 ### Usage
 {: #cluster_list_use}
@@ -84,7 +84,7 @@ Shows the details of the specified cluster, including information about each rep
 ### Description
 {: #cluster_delete_desc}
 
-Deletes a cluster. Once the cluster is deleted, all the data is lost.
+Deletes a cluster. When the cluster is deleted, all the data is lost.
 
 ### Usage
 {: #cluster_delete_use}

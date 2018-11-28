@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-05-30"
+  years: 2018
+lastupdated: "2018-11-26"
 
 ---
 
@@ -16,12 +16,12 @@ lastupdated: "2018-05-30"
 
 To review which services you have created, use this command:
 
-<pre><code class="hljs">~$ bx resource service-instances
+<pre><code class="hljs">~$ ibmcloud resource service-instances
 </code></pre>
 
-If you wish to delete one of them, use the **bx resource service-instance-delete** command, as shown in this example:
+If you want to delete one of them, use the **ibmcloud resource service-instance-delete** command, as shown in this example:
 
-<pre><code class="hljs">~$ bx resource service-instance-delete MyDBaaSIns03
+<pre><code class="hljs">~$ ibmcloud resource service-instance-delete MyDBaaSIns03
 </code></pre>
 
 The CLI tool asks you to confirm the deletion: 

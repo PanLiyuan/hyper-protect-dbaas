@@ -1,10 +1,9 @@
 <!-- Markdown Navigation -->
-<!-- [Express your needs](https://www.surveygizmo.com/s3/4263894/IBM-Cloud-Hyper-Protect-DBaaS-Survey) -->
 
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="hyper-protect-dbaas" audience="service" arm="3917562" href="/docs/services/hyper-protect-dbaas/index.html"}
+{: .toc subcollection="hyper-protect-dbaas" audience="service" arm="3917562" href="/docs/services/hyper-protect-dbaas/index.html" path="services/hyper-protect-dbaas"}
 IBM Cloud Hyper Protect DBaaS
 
     {: .navgroup id="learn"}
@@ -21,6 +20,7 @@ IBM Cloud Hyper Protect DBaaS
 		webui-dbinst.md
 		webui-dbuser.md
 		webui-dblogs.md
+		webui-dbmonitoring.md
 
     {: .topicgroup}
 	Using the DBaaS Manager APIs (for database cluster management)
@@ -46,16 +46,8 @@ IBM Cloud Hyper Protect DBaaS
      {: .navgroup-end}
 
      {: .navgroup id="reference"}
-	[DBaaS Manager API commands](https://api.hypersecuredbaas.ibm.com/)
-
-     {: .topicgroup}
-	CLI plugin commands
-		dbaasplugin_list_cmds.md
-		dbaasplugin_cmds_cluster_op.md
-		dbaasplugin_cmds_db_op.md
-		dbaasplugin_cmds_instance_op.md
-		dbaasplugin_cmds_log_op.md
-		dbaasplugin_cmds_user_op.md
+	[DBaaS Manager API commands](https://cloud.ibm.com/apidocs/hyper-protect-dbaas)
+	dbaas_cli.md  
      {: .navgroup-end}
 
      {: .navgroup id="help"}
@@ -63,4 +55,6 @@ IBM Cloud Hyper Protect DBaaS
 	Troubleshooting
 		help-support.md
 		help-issues.md
+	migration.md
+	metering-and-billing.md
      {: .navgroup-end}

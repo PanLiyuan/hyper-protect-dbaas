@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-08-10"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -46,7 +46,7 @@ To do so, follow these instructions:
       
 2. To ensure secure data transfer, obtain a Certificate Authority (CA) file from https://api.hypersecuredbaas.ibm.com/cert.pem, and copy it to an appropriate directory such as **/etc/ssl/certs/**.
 
-3. Obtain an access token and a user ID using the GET /auth/token operation:
+3. Get an access token and a user ID by using the GET /auth/token operation:
 
    ```javascript
       curl -X GET -H "accept: application/json" -H "api_key: icGVY1*** ***UdfcIg4kzE" https://mgmt06.hypersecuredbaas.ibm.com:20000/api/ /auth/token

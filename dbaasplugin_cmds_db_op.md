@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-07"
+lastupdated: "2018-11-20"
 
 ---
 
@@ -34,7 +34,7 @@ Creates a database and, optionally, a collection.
 ### Usage
 {: #db_create_use}
 
-**bx dbaas database-create** *resource_name* *database* [*collection*]
+**ibmcloud dbaas database-create** *resource_name* *database* [*collection*]
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
@@ -54,7 +54,7 @@ Lists all the databases on the given cluster.
 ### Usage
 {: #db_list_use}
 
-**bx dbaas database-list** *resource_name*
+**ibmcloud dbaas database-list** *resource_name*
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |
@@ -72,7 +72,7 @@ Deletes a database.
 ### Usage
 {: #db_delete_use}
 
-**bx dbaas database-delete** *resource_name* *database*
+**ibmcloud dbaas database-delete** *resource_name* *database*
 
 | Parameter        |  Description                  |
 | :--------------- |  :--------------------------- |

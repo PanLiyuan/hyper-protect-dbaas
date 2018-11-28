@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-11-26"
 
 ---
 
@@ -69,18 +69,18 @@ You can address requests to the DBaaS Manager through one of these interfaces:
 <li>The [Web User Interface](../../../docs/services/hyper-protect-dbaas/webui-cluster.html)</li>
 <li>The [DBaaS Manager APIs (for database cluster management)](../../../docs/services/hyper-protect-dbaas/api_genl_proc.html)</li>
 <li>The [IBM Cloud APIs (for service instance management)](../../../docs/services/hyper-protect-dbaas/curl_create_serv_inst.html)</li>
-<li>The [CLI plugin with the IBM Cloud CLI tool](../../../docs/services/hyper-protect-dbaas/download_install.html)</li>
+<li>The [CLI plug-in with the IBM Cloud CLI tool](../../../docs/services/hyper-protect-dbaas/download_install.html)</li>
 </ul>
 
 ## Accessing the database
 
-After creating a MongoDB database, you can use the mongo shell, your favorite
+After creating a MongoDB database, you can use the **mongo** shell, your favorite
 MongoDB driver, or tools like MongoDB Compass to manage the database itself. 
-For PostgreSQL, you can use pgadmin or your favorite PostgreSQL tool to manage the databases.
+For PostgreSQL, you can use **pgadmin** or your favorite PostgreSQL tool to manage the databases.
 
 ### Before you begin
 
-To ensure secure data transfer, obtain a Certificate Authority (CA) file from
+To ensure secure data transfer, obtain a certificate authority (CA) file from
 <https://api.hypersecuredbaas.ibm.com/cert.pem>, and copy it to the appropriate directory.
 
 ### Connecting to a database
@@ -90,14 +90,15 @@ The Hyper Protect DBaaS dashboard provides the necessary information to connect 
 #### mongo shell 
 
 For MongoDB, you can run the mongo shell command that is provided at the Hyper Protect DBaaS dashboard:
-<ol><li>Click on the icon next to the command to copy it to your clipboard.</li>
-<li>If the secure data connection fails with an SSL error, specify the obtained CA file to validate the server certificate. Add the parameter **--sslCAFile** to indicate the CA file.</li>
-</ol>
+
+1. Click the icon next to the command to copy it to your clipboard.
+2. If the secure data connection fails with an SSL error, specify the obtained CA file to validate the server certificate. Add the parameter **--sslCAFile** to indicate the CA file.
+
 <b>Example:</b>
 <pre><code class="hljs"># mongo 'mongodb:/&sol;&lt;<em>Hostname_1</em>&gt;&colon;&lt;<em>PortNumber_1</em>&gt;,\
 &lt;<em>Hostname_2</em>&gt;&colon;&lt;<em>PortNumber_2</em>&gt;,\
 &lt;<em>Hostname_3</em>&gt;&colon;&lt;<em>PortNumber_3</em>&gt;/admin?replicaSet=&lt;<em>replicaSetName</em>&gt;' \
---ssl --username &lt;<em>userID</em>&gt; --password &lt;<em>password</em>&gt; --sslCAFile cert.pem</code></pre>
+--ssl --username &lt;<em>userID</em>&gt; --password &lt;<em>password</em>&gt; --sslCAFile &lt;<em>CAFile</em>&gt;</code></pre>
 Where:
 <dl>
   <dt> &lt;<em>Hostname_i</em>&gt; </dt>
@@ -112,9 +113,11 @@ Where:
   <dt> &lt;<em>password</em>&gt; </dt>
     <dd> Is the password for the DBA user ID as specified in the
     service configuration screen </dd>
+  <dt> &lt;<em>CAFile</em>&gt; </dt>
+    <dd> Is the CA file cert.pem </dd>
 </dl>
 
-#### PostgreSQL
+#### psql shell
 
 For PostgreSQL, you can use this command:
 <pre><code class="hljs">psql "host=&lt;<em>Hostname</em>&gt; user=&lt;<em>Username</em>&gt; port=&lt;<em>PortNumber</em>&gt; sslmode=verify-full sslrootcert=&lt;<em>CAFilePath</em>&gt;"</code></pre>
@@ -135,9 +138,3 @@ Where:
 ### Other tools
 
 For other tools, such as MongoDB Compass and pgAdmin, Hyper Protect DBaaS supports *SSL server certificate validation* to connect to the host.  If needed, use the provided CA file. 
-
-For more information, watch: 
-<ul>
-<li>[Get started with IBM Cloud Hyper Protect DBaaS - English version](https://www.youtube.com/watch?v=WfTWzjYTgCs)</li>
-<li>[Get started with IBM Cloud Hyper Protect DBaaS - Chinese version](https://v.youku.com/v_show/id_XMzc3ODQzMzAxMg==.html)</li>
-</ul>

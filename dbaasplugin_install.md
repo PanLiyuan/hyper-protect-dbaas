@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-07-18"
+lastupdated: "2018-11-26"
 
 ---
 
@@ -12,7 +12,7 @@ lastupdated: "2018-07-18"
 {:codeblock: .codeblock}
 
 
-# Installing the DBaaS CLI plugin
+# Installing the DBaaS CLI plug-in
 
 To access a complete set of DBaaS commands when using the IBM Cloud CLI, 
 you must install the following components 
@@ -21,7 +21,7 @@ you must install the following components
 - Python runtime (2.7.15 is recommended; 3.*x* is *not* supported)
 - Python Pip package management system
 - Python Requests library
-- DBaaS CLI plugin
+- DBaaS CLI plug-in
 
 ## Instructions for installing the DBaaS CLI components (by operating system)
 {: #dbaas_cli_instr}
@@ -33,7 +33,7 @@ you must install the following components
 ### On Linux:
 {: #dbaas_cli_linux}
 
-1. Most Linux distributions have Python and Pip pre-installed. If yours does not, use these commands to install them:
+1. Most Linux distributions have Python and Pip preinstalled. If yours does not, use these commands to install them:
    
    <pre><code class="hljs">sudo apt-get install python python2.7 python-dev
    sudo apt-get install python-pip</code></pre>
@@ -42,13 +42,13 @@ you must install the following components
 
    <pre><code class="hljs">sudo pip install requests</code></pre>
 
-3. To install the DBaaS CLI plugin, use this command:
+3. To install the DBaaS CLI plug-in, use this command:
 
-   <pre><code class="hljs">bx plugin install dbaas-cli</code></pre>
+   <pre><code class="hljs">ibmcloud plugin install dbaas-cli</code></pre>
 
-4. To confirm that the DBaaS CLI plugin has been installed correctly, use this command:
+4. To confirm that the DBaaS CLI plug-in has been installed correctly, use this command:
 
-   <pre><code class="hljs">bx</pre></code>
+   <pre><code class="hljs">ibmcloud</pre></code>
 
    The system displays **dbaas** in the list of available commands.
 
@@ -65,13 +65,13 @@ you must install the following components
 
    <pre><code class="hljs">sudo pip install requests</code></pre>
 
-3. To install the DBaaS CLI plugin, use this command:
+3. To install the DBaaS CLI plug-in, use this command:
 
-   <pre><code class="hljs">bx plugin install dbaas-cli</code></pre> 
+   <pre><code class="hljs">ibmcloud plugin install dbaas-cli</code></pre> 
 
-4. To confirm that the DBaaS CLI plugin has been installed correctly, use this command:
+4. To confirm that the DBaaS CLI plug-in has been installed correctly, use this command:
 
-   <pre><code class="hljs">bx</pre></code>
+   <pre><code class="hljs">ibmcloud</pre></code>
 
    The system displays **dbaas** in the list of available commands.
 
@@ -86,7 +86,7 @@ you must install the following components
 
     b. Select the **Windows x86-64 MSI** installer, download it, and run it.
     
-    c. On the **Customize Python** menu of the **Python Setup** wizard, specify: **pip Will be installed on local hard drive**
+    c. On the **Customize Python** menu of the **Python Setup** wizard, specify: **pip Will be installed on local hard disk drive**
  
 2. After installing Python, use your Windows **Edit System Variable** dialog to 
    append the following values to the existing **Path** variable value:
@@ -97,12 +97,12 @@ you must install the following components
 
    <pre><code class="hljs">pip install requests</code></pre>
 
-4. To install the DBaaS CLI plugin, use this command:
+4. To install the DBaaS CLI plug-in, use this command:
 
-   <pre><code class="hljs">bx plugin install dbaas-cli</code></pre> 
+   <pre><code class="hljs">ibmcloud plugin install dbaas-cli</code></pre> 
 
-5. To confirm that the DBaaS CLI plugin has been installed correctly, use this command:
+5. To confirm that the DBaaS CLI plug-in has been installed correctly, use this command:
 
-   <pre><code class="hljs">bx</pre></code>
+   <pre><code class="hljs">ibmcloud</pre></code>
 
    The system displays **dbaas** in the list of available commands.

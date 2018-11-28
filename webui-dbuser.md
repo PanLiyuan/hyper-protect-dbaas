@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-23"
+lastupdated: "2018-11-26"
 
 ---
 
@@ -27,6 +27,9 @@ user is to be authorized.
 3. Click **Submit**.
 
 ##Deleting a database user
+
+**Note:** Do not delete a database user if that database user was 
+created by credential and if that credential is still in use.
 
 1. Select the database user.
 2. Click the three dots at the right end of the line, then select **Delete**.
