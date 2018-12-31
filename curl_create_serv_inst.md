@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-11-20"
+lastupdated: "2018-12-31"
 
 ---
 
@@ -61,7 +61,7 @@ To create a service instance using the RESTful API, follow these instructions:
 | :---------------    | :------------------------------------------------------------- |  
 | Authorization:      | The access token.  |
 | name:               | The name of the service instance to be created. This name will be shown in the service list. |
-| region_id:          | The region in which you want to create the DBaaS service instance. (**Note:** Currently, the only valid values are "eu-gb", "us-south", and "us-east".) |
+| region_id:          | The region in which you want to create the DBaaS service instance. (**Note:** Currently, the only valid value is "us-east".) |
 | resource_group_id:  | The ID of the resource group in which the instance is to be created. |
 | resource_plan_id:   | The resource service plan to be used. Valid plans are listed in the following table. |
 
