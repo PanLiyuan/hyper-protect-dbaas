@@ -30,18 +30,6 @@ lastupdated: "2018-11-23"
     <th> City </th>
   </tr>
   <tr>
-    <td> dbaas200.hypersecuredbaas.ibm.com </td>
-    <td> 20000 </td>
-    <td> eu-gb </td>
-    <td> London </td>
-  </tr>
-  <tr>
-    <td> dbaas300.hypersecuredbaas.ibm.com </td>
-    <td> 20000 </td>
-    <td> us-south </td>
-    <td> Dallas </td>
-  </tr>
-   <tr>
     <td> dbaas400.hyperprotectdbaas.cloud.ibm.com </td>
     <td> 20000 </td>
     <td> us-east </td>
