@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-11-20"
+lastupdated: "2018-12-31"
 
 ---
 
@@ -30,7 +30,7 @@ us-south   US South         IBM        Production   public
 
 </code></pre>
 
-**Note:** Currently, {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS is supported only on the **us-south** and **eu-gb** regions.
+**Note:** Currently, {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS is supported only on the **us-east** region.
 
 To log in to an IBM Cloud service endpoint, follow these steps:
 
