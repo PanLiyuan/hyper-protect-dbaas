@@ -49,7 +49,7 @@ After you enter the command, the state of the new service instance might tempora
 OK
 Service instance MYDBaaSIns03 was created.
 Name           Location   State      Type               Tags
-MyDBaaSIns03   us-south   inactive   service_instance
+MyDBaaSIns03   us-east    inactive   service_instance
 ~$
 </code></pre>
 
