@@ -21,7 +21,7 @@ lastupdated: "2018-11-23"
 <li>Send the API request to the DBaaS Manager.
 <p>You can use a RESTful API client, such as cURL, to handle a request.
 </p>
-<p>DBaaS Managers are available here:
+<p>The DBaaS Manager is available here:
 <table>
   <tr>
     <th> Host name </th>
