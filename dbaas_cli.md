@@ -1,8 +1,8 @@
 ---
  
 copyright:
-  years: 2018
-lastupdated: "2018-11-20"
+  years: 2018, 2019
+lastupdated: "2019-02-07"
 
 ---
 
@@ -24,7 +24,7 @@ to start and stop instances, and to list and download log files.
 
 
 **Note:** As a prerequisite for the {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_full}} plug-in, 
-install the [{{site.data.keyword.Bluemix_notm}} CLI ![External link icon](../icons/launch-glyph.svg "External link icon")](docs/cli/index.html#overview). 
+install the [{{site.data.keyword.Bluemix_notm}} CLI ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/cli/index.html#overview). 
 {{site.data.keyword.Bluemix_notm}} CLI requires Java SDK 1.7.0.
 The prefix for running commands by using the {{site.data.keyword.Bluemix_notm}} CLI is `ibmcloud`.
 
