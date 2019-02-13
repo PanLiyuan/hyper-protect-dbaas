@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-11-20"
+  years: 2017, 2019
+lastupdated: "2019-02-13"
 
 ---
 
@@ -44,7 +44,7 @@ To do so, follow these instructions:
   
       The value that is assigned to "apiKey" is your API key. **Important:** Make a note of this value before you close the window.
       
-2. To ensure secure data transfer, obtain a Certificate Authority (CA) file from https://api.hypersecuredbaas.ibm.com/cert.pem, and copy it to an appropriate directory such as **/etc/ssl/certs/**.
+2. To ensure secure data transfer, obtain a Certificate Authority (CA) file from the dashboard, and copy it to an appropriate directory such as **/etc/ssl/certs/**.
 
 3. Get an access token and a user ID by using the GET /auth/token operation:
 
