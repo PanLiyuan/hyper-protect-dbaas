@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-26"
+  years: 2017, 2019
+lastupdated: "2019-02-13"
 
 ---
 
@@ -81,7 +81,7 @@ For PostgreSQL, you can use **pgadmin** or your favorite PostgreSQL tool to mana
 ### Before you begin
 
 To ensure secure data transfer, obtain a certificate authority (CA) file from
-<https://api.hypersecuredbaas.ibm.com/cert.pem>, and copy it to the appropriate directory.
+the dashboard, and copy it to the appropriate directory.
 
 ### Connecting to a database
 
