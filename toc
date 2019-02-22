@@ -28,13 +28,6 @@ IBM Cloud Hyper Protect DBaaS
 		api_genl_proc.md
 
     {: .topicgroup}
-	Using the IBM Cloud APIs (for service instance management)
-		icloudapi_auth.md
-		curl_create_serv_inst.md
-		curl_delete_serv_inst.md
-		curl_list_serv_inst.md
-
-    {: .topicgroup}
 	Using the CLI plugin with the IBM Cloud CLI tool
 		download_install.md
 		dbaasplugin_install.md

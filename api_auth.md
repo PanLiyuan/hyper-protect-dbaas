@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-13"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -49,7 +49,7 @@ To do so, follow these instructions:
 3. Get an access token and a user ID by using the GET /auth/token operation:
 
    ```javascript
-      curl -X GET -H "accept: application/json" -H "api_key: icGVY1*** ***UdfcIg4kzE" https://mgmt06.hypersecuredbaas.ibm.com:20000/api/ /auth/token
+      curl -X GET -H "accept: application/json" -H "api_key: icGVY1*** ***UdfcIg4kzE" https://dbaas400.hyperprotectdbaas.cloud.ibm.com:20000/api/v1/auth/token /auth/token
    ```
    {: codeblock}
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-26"
+  years: 2017, 2019
+lastupdated: "2019-02-07"
 
 ---
 
@@ -30,7 +30,7 @@ lastupdated: "2018-11-26"
     <dd>If no resource group is selectable, you can create one on the IBM Cloud dashboard.</dd>
     
     <dt>Tags:</dt>
-    <dd>Tags are optional. See [Tagging resources](../../../docs/account/tagging.html#tagging) for more information about tagging.</dd>
+    <dd>Tags are optional. See [Tagging resources](/docs/resources?topic=resources-tag#tag) for more information about tagging.</dd>
 
 		<dt>Cluster/Replicaset Name:</dt>
 		<dd>A name for the database cluster. **Note:** The term "Replicaset Name" is specific to MongoDB.</dd>

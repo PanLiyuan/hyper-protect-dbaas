@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-11-26"
+  years: 2017, 2019
+lastupdated: "2019-02-21"
 
 ---
 {:new_window: target="_blank"}
@@ -19,7 +19,7 @@ lastupdated: "2018-11-26"
 If you have problems, consider these techniques for troubleshooting and getting help:
 {: shortdesc}
 
-  * Refer to https://support.ng.bluemix.net/gethelp/
+  * Refer to https://cloud.ibm.com/unifiedsupport/supportcenter
   * Select **Support** at the upper right of the {{site.data.keyword.cloud}} console
   
 To get in contact with the team, use one of the following options:

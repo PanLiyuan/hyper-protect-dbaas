@@ -39,7 +39,7 @@ through well-defined RESTful APIs.</p></li>
 high availability.</li>
 </ul>
 
-For more information, watch: 
+For more information, watch:
 <ul>
 <li>[Data security and privacy using IBM Cloud Hyper Protect DBaaS - English version](https://www.youtube.com/watch?v=__IBP727IL8)</li>
 <li>[Data security and privacy using IBM Cloud Hyper Protect DBaaS - Chinese version](https://v.youku.com/v_show/id_XMzc3ODQzMzYwMA==.html)</li>
@@ -66,16 +66,16 @@ intelligently schedules your requests based on the available resources.
 
 You can address requests to the DBaaS Manager through one of these interfaces:
 <ul>
-<li>The [Web User Interface](../../../docs/services/hyper-protect-dbaas/webui-cluster.html)</li>
-<li>The [DBaaS Manager APIs (for database cluster management)](../../../docs/services/hyper-protect-dbaas/api_genl_proc.html)</li>
-<li>The [IBM Cloud APIs (for service instance management)](../../../docs/services/hyper-protect-dbaas/curl_create_serv_inst.html)</li>
-<li>The [CLI plug-in with the IBM Cloud CLI tool](../../../docs/services/hyper-protect-dbaas/download_install.html)</li>
+<li>The [Web User Interface](/docs/services/hyper-protect-dbaas?topic=hyper-protect-dbaas-database-clusters#database-clusters)</li>
+<li>The [DBaaS Manager APIs (for database cluster management)](/docs/services/hyper-protect-dbaas?topic=hyper-protect-dbaas-gen_inst_mgr_apis#gen_inst_mgr_apis)</li>
+<li>The [IBM Cloud APIs (for service instance management)](https://cloud.ibm.com/apidocs/hyper-protect-dbaas#stop-a-database-service-instance)</li>
+<li>The [CLI plug-in with the IBM Cloud CLI tool](/docs/services/hyper-protect-dbaas?topic=hyper-protect-dbaas-downloading-and-installing-the-ibm-cloud-cli-tool#downloading-and-installing-the-ibm-cloud-cli-tool)</li>
 </ul>
 
 ## Accessing the database
 
 After creating a MongoDB database, you can use the **mongo** shell, your favorite
-MongoDB driver, or tools like MongoDB Compass to manage the database itself. 
+MongoDB driver, or tools like MongoDB Compass to manage the database itself.
 For PostgreSQL, you can use **pgadmin** or your favorite PostgreSQL tool to manage the databases.
 
 ### Before you begin
@@ -87,7 +87,7 @@ the dashboard, and copy it to the appropriate directory.
 
 The Hyper Protect DBaaS dashboard provides the necessary information to connect to a database.
 
-#### mongo shell 
+#### mongo shell
 
 For MongoDB, you can run the mongo shell command that is provided at the Hyper Protect DBaaS dashboard:
 
@@ -125,7 +125,7 @@ Where:
 <dl>
   <dt> &lt;<em>Hostname</em>&gt; </dt>
     <dd> Is the hostname of the database cluster </dd>
-  <dt> &lt;<em>Username</em>&gt; </dt> 
+  <dt> &lt;<em>Username</em>&gt; </dt>
     <dd> Is the username for the DBA as specified in the service configuration screen </dd>
   <dt> &lt;<em>PortNumber</em>&gt; </dt>
     <dd> Is the port number of the database cluster </dd>
@@ -137,4 +137,4 @@ Where:
 
 ### Other tools
 
-For other tools, such as MongoDB Compass and pgAdmin, Hyper Protect DBaaS supports *SSL server certificate validation* to connect to the host.  If needed, use the provided CA file. 
+For other tools, such as MongoDB Compass and pgAdmin, Hyper Protect DBaaS supports *SSL server certificate validation* to connect to the host.  If needed, use the provided CA file.

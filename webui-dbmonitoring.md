@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-26"
+  years: 2018, 2019
+lastupdated: "2019-02-21"
 
 ---
 
@@ -22,7 +22,10 @@ After you have enabled database monitoring, you can view the database metrics us
 <ol>
 <li>Be sure to have access to at least one Cloud Foundry organization and space. The organization and space must be in the location of your database cluster, except database clusters residing in Washington (us-east), which need access to an organization and space in Dallas (us-south) for monitoring. 
 
-<p>For information about how to obtain such access, see https://console.bluemix.net/docs/iam/mngcf.html#mngcf.</p>
+<p>For information about how to obtain such access, see https://cloud.ibm.com/docs/iam?topic=iam-mngcf#mngcf.</p>
+</li>
+
+<li>Make sure that all tree instances of the database cluster are running.
 </li>
 
 <li>In the {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS dashboard, select the Monitoring tab.
@@ -46,4 +49,4 @@ There are two ways to view the metrics in Grafana:
 
 To display the metrics in a new dashboard in Grafana, select the upper left icon, then select **Dashboards > New**. 
 
-For more information about using Grafana, see https://console.bluemix.net/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring.
+For more information about using Grafana, see https://cloud.ibm.com/docs/services/cloud-monitoring?topic=cloud-monitoring-getting-started-with-ibm-cloud-monitoring#getting-started-with-ibm-cloud-monitoring.

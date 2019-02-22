@@ -2,7 +2,7 @@
  
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-02-21"
 
 ---
 
@@ -24,7 +24,7 @@ to start and stop instances, and to list and download log files.
 
 
 **Note:** As a prerequisite for the {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_full}} plug-in, 
-install the [{{site.data.keyword.Bluemix_notm}} CLI ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/cli/index.html#overview). 
+install the [{{site.data.keyword.Bluemix_notm}} CLI ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/docs/cli?topic=cloud-cli-ibmcloud-cli#overview). 
 {{site.data.keyword.Bluemix_notm}} CLI requires Java SDK 1.7.0.
 The prefix for running commands by using the {{site.data.keyword.Bluemix_notm}} CLI is `ibmcloud`.
 
@@ -32,7 +32,7 @@ In the terminal, you are notified when updates to the `ibmcloud` CLI and plug-in
 Be sure to keep your CLI up-to-date so that you can use all the available commands and flags.
 
 To install the {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_full}} CLI plug-in, 
-see [Installing the DBaaS CLI plug-in](/docs/services/hyper-protect-dbaas/dbaasplugin_install.html#dbaas_plugin_install). 
+see [Installing the DBaaS CLI plug-in](/docs/services/hyper-protect-dbaas?topic=hyper-protect-dbaas-installing-the-dbaas-cli-plug-in#installing-the-dbaas-cli-plug-in). 
 If you want to view the current version of your {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_full}} 
 CLI plugin, run `ibmcloud plugin show dbaas-cli`.
 

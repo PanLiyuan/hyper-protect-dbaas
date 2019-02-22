@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-26"
+  years: 2018, 2019
+lastupdated: "2019-02-07"
 
 ---
 
@@ -23,7 +23,7 @@ beta service, complete the following steps.
 To transfer the database information:
 
 1. Deploy a new instance of the IBM Cloud Hyper Protect DBaaS service from the IBM Cloud Catalog.
-For this, follow the steps as described in [Getting started](../../../docs/services/hyper-protect-dbaas/index.html).
+For this, follow the steps as described in [Getting started](/docs/services/hyper-protect-dbaas?topic=hyper-protect-dbaas-gettingstarted#gettingstarted).
 
 2. Verify that the new deployed instance is operational. Also, verify access 
 to the interfaces that you are going to use as you did with the experimental 

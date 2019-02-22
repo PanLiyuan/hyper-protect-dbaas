@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-12-31"
+  years: 2017, 2019
+lastupdated: "2019-02-21"
 
 ---
 
@@ -60,12 +60,12 @@ To log in to an IBM Cloud service endpoint, follow these steps:
 
 For more information about the **ibmcloud login** command parameters, see "bluemix login" at this URL:
 
-https://console.bluemix.net/docs/cli/reference/bluemix_cli/bx_cli.html#bluemix_login
+https://cloud.ibm.com/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_cli#bluemix_login
 
 **Note:** When you use {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS, you might need to create spaces in more than one region 
 and switch between regions by using the **ibmcloud target** command. For more information, see 
-"Creating organizations and spaces" (https://console.bluemix.net/docs/account/orgs_spaces.html#orgsspacesusers) 
-and "bluemix target" (https://console.bluemix.net/docs/cli/reference/bluemix_cli/bx_cli.html#bluemix_target).
+"Creating organizations and spaces" (https://cloud.ibm.com/docs/account?topic=account-orgsspacesusers#orgsspacesusers) 
+and "bluemix target" (https://cloud.ibm.com/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_cli#bluemix_target).
 
 
 

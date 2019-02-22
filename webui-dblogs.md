@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-26"
+  years: 2018, 2019
+lastupdated: "2019-02-21"
 
 ---
 
@@ -22,7 +22,10 @@ After you have enabled database logging, you can view the logs using Kibana.
 <ol>
 <li>Be sure to have access to at least one Cloud Foundry organization and space. The organization and space must be in the location of your database cluster, except database clusters residing in Washington (us-east), which need access to an organization and space in Dallas (us-south) for logging. 
 
-<p>For information about how to obtain such access, see https://console.bluemix.net/docs/iam/mngcf.html#mngcf.</p>
+<p>For information about how to obtain such access, see https://cloud.ibm.com/docs/iam?topic=iam-mngcf#mngcf.</p>
+</li>
+
+<li>Make sure that all tree instances of the database cluster are running.
 </li>
 
 <li>In the {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS dashboard, select the Logging tab. 
@@ -50,4 +53,4 @@ There are two ways to view the logs in Kibana:
 
 In Kibana, select the same Cloud Foundry region, organization, and space which you selected to enable logging.
 
-For more information, see https://console.bluemix.net/docs/services/CloudLogAnalysis/index.html#getting-started-with-cla.
+For more information, see https://cloud.ibm.com/docs/services/CloudLogAnalysis?topic=cloudloganalysis-getting-started-with-cla#getting-started-with-cla.
