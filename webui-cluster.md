@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-26"
+lastupdated: "2019-03-27"
 
 keywords: database cluster, pricing plans, License Agreement
 
@@ -69,11 +69,10 @@ subcollection: hyper-protect-dbaas
 Open the {{site.data.keyword.cloud_notm}} dashboard to display a list of created database clusters:
 
 <ol>
-<li>Click the three bars in the upper left of the console.</li>
-<li>Select Dashboard.</li>
+	<li>Click the three bars in the upper left of the console.</li>
+	<li>Select Dashboard.</li>
+	<li>Select Services.</li>
 </ol>
-
-Select Services to display a list of created database clusters.
 
 ## Showing detail information of a database cluster
 
