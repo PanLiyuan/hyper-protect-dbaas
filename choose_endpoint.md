@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-21"
+lastupdated: "2019-03-27"
 
 keywords: service endpoint, ibmcloud regions
 
@@ -68,5 +68,5 @@ https://cloud.ibm.com/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_cli#b
 
 **Note:** When you use {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_full}}, you might need to create spaces in more than one region
 and switch between regions by using the **ibmcloud target** command. For more information, see
-[Creating organizations and spaces](/docs/account?topic=account-orgsspacesusers#orgsspacesusers)
-and [bluemix target](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_cli#bluemix_target).
+[Adding orgs and spaces](/docs/account?topic=account-orgsspacesusers#orgsspacesusers)
+and [General CLI (ibmcloud) commands](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_cli#bluemix_target).
