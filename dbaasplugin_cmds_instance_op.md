@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-11-20"
 
+keywords: instance operation commands, instance operation, cluster resource
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -35,7 +39,7 @@ Stops an instance (a replication member of the cluster).
 **ibmcloud dbaas instance-stop** *resource_name* *instance_id*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *resource_name*     |  The name of the cluster resource.        |
 | *instance_id* | The ID of the instance. |
 
@@ -54,7 +58,7 @@ Starts a stopped instance.
 **ibmcloud dbaas instance-start** *resource_name* *instance_id*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *resource_name*    |  The name of the cluster resource.      |
 | *instance_id*    |  The ID of the instance.      |
 
@@ -74,6 +78,6 @@ Restarts a running instance.
 **ibmcloud dbaas instance-restart** *resource_name* *instance_id*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *resource_name*    |  The name of the cluster resource.       |
 | *instance_id* | The ID of the instance. |

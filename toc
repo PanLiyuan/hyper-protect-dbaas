@@ -14,40 +14,39 @@ IBM Cloud Hyper Protect DBaaS
 
     {: .navgroup id="howto"}
     {: .topicgroup}
-	Using the Web User Interface
-		webui-cluster.md
-		webui-db.md
-		webui-dbinst.md
-		webui-dbuser.md
-		webui-dblogs.md
-		webui-dbmonitoring.md
+    Using the Web User Interface
+        webui-cluster.md
+        webui-db.md
+        webui-dbinst.md
+        webui-dbuser.md
+        webui-dblogs.md
+        webui-dbmonitoring.md
 
     {: .topicgroup}
-	Using the DBaaS Manager APIs (for database cluster management)
-		api_auth.md
-		api_genl_proc.md
+    Using the DBaaS Manager APIs (for database cluster management)
+        api_auth.md
+        api_genl_proc.md
 
     {: .topicgroup}
-	Using the CLI plugin with the IBM Cloud CLI tool
-		download_install.md
-		dbaasplugin_install.md
-		choose_endpoint.md
-		create_serv_inst.md
-		delete_serv_inst.md
-		
-	[Programming with Swift using a Hyper Protect DBaaS provisioned MongoDB](https://console.bluemix.net/docs/swift/hypersecure_dbaas/database-cluster.html#creating-a-highly-available-and-secure-database)
-     {: .navgroup-end}
+    Using the CLI plugin with the IBM Cloud CLI tool
+        download_install.md
+        dbaasplugin_install.md
+        choose_endpoint.md
+        create_serv_inst.md
+        delete_serv_inst.md
+    {: .navgroup-end}
 
-     {: .navgroup id="reference"}
-	[DBaaS Manager API commands](https://cloud.ibm.com/apidocs/hyper-protect-dbaas)
-	dbaas_cli.md  
-     {: .navgroup-end}
+    {: .navgroup id="reference"}
+    [DBaaS Manager API commands](https://cloud.ibm.com/apidocs/hyper-protect-dbaas)
+    dbaas_cli.md
+    {: .navgroup-end}
 
-     {: .navgroup id="help"}
-     {: .topicgroup}
-	Troubleshooting
-		help-support.md
-		help-issues.md
-	migration.md
-	metering-and-billing.md
-     {: .navgroup-end}
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Troubleshooting
+        help-support.md
+        help-issues.md
+
+    migration.md
+    metering-and-billing.md
+    {: .navgroup-end}

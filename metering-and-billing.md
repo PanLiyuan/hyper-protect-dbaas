@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-21"
+lastupdated: "2019-03-26"
+
+keywords: metering, billing
+
+subcollection: hyper-protect-dbaas
 
 ---
 
@@ -11,10 +15,8 @@ lastupdated: "2019-02-21"
 {:screen: .screen}
 {:codeblock: .codeblock}
 
-# Further information
+# Metering and billing
 
-## Metering and billing
-
-To obtain information about metering and billing, select **Manage > Billing and usage**. 
+To obtain information about metering and billing, select **Manage > Billing and usage**.
 
 For more information, see [How you are charged](https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-charges#charges).

@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-11-20"
 
+keywords: Database operation, database operation commands, database-list database
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -34,7 +38,7 @@ Creates a database. For MongoDB, a collection must also be created with the data
 **database-create** *cluster_id* *database* *collection*
 
 | Parameter        |  Description                 |
-| :--------------- |  :---------------------------|
+| ---------------- |  ----------------------------|
 | *cluster_id*     |  The ID of the cluster       |
 | *database*       |  The database name to create |
 | *collection*     |  The collection name to create |
@@ -54,7 +58,7 @@ Lists all the databases on the given cluster.
 **database-list** *cluster_id*
 
 | Parameter        |  Description                 |
-| :--------------- |  :---------------------------|
+| ---------------- |  ----------------------------|
 | *cluster_id*     |  The ID of the cluster       |
 
 
@@ -72,6 +76,6 @@ Deletes a database.
 **database-delete** *cluster_id* *database*
 
 | Parameter        |  Description                 |
-| :--------------- |  :---------------------------|
+| ---------------- |  ----------------------------|
 | *cluster_id*     |  The ID of the cluster       |
 | *database*       |  The name of the database to delete. |

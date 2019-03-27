@@ -4,6 +4,10 @@ copyright:
   years: 2018
 lastupdated: "2018-11-26"
 
+keywords: ibmcloud resource, service instance, CLI tool
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -24,7 +28,7 @@ If you want to delete one of them, use the **ibmcloud resource service-instance-
 <pre><code class="hljs">~$ ibmcloud resource service-instance-delete MyDBaaSIns03
 </code></pre>
 
-The CLI tool asks you to confirm the deletion: 
+The CLI tool asks you to confirm the deletion:
 
 <pre><code class="hljs">Really delete the service instance MyDBaaSIns03 with ID crn:v1:bluemix:pub
 da0e04a520:6884bf17-9950-450f-8bl1e-65487a72d812:: ?>

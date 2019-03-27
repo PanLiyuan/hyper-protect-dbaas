@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2017-11-26"
 
+keywords: API calls, API key, DBaaS Manager
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -15,7 +19,7 @@ lastupdated: "2017-11-26"
 # Installing dmclient
 
 Use the command-line interface (CLI) to issue API calls to the DBaaS Manager.
-IBM provides the CLI tool dmclient for download.
+{{site.data.keyword.IBM}} provides the CLI tool dmclient for download.
 
 ## Before you begin
 {: #installing_dmclient_byb}
@@ -38,7 +42,7 @@ Later, you can run dmclient from the directory where the files are located.
 To authenticate API requests, you need an API key.
 
 <ol>
-<li>In the IBM Cloud dashboard, select **Manage > Security > Platform API Keys**.
+<li>In the {{site.data.keyword.cloud}} dashboard, select **Manage > Security > Platform API Keys**.
 <p>The Platform API Keys dialog is displayed.</p></li>
 <li>In the Platform API Keys dialog, click **Create**.
 <p>The Create API Key dialog is displayed.</p></li>
@@ -109,21 +113,16 @@ Define the following environment variables:
 Create a client environment script named **openrc**.
 
 Enter the following lines:
-<table role="presentation">
-  <tr>
-    <td> # export DBAAS_MANAGER_IP=<*DBaaS_mgr_host_name*> </td>
-  </tr><tr>
-    <td> # export DBAAS_MANAGER_PORT=<*DBaaS_mgr_port_number*> </td>
-  </tr><tr>
-    <td> # export API_KEY=<*api_key*> </td>
-  </tr><tr>
-    <td> # export CPU_NUMBER=<*cpu_number*> </td>
-  </tr><tr>
-    <td> # export MEMORY_SIZE=<*memory_size*> </td>
-  </tr><tr>
-    <td> # export STORAGE_SIZE=<*storage_size*> </td>
-  </tr>
-</table>
+
+```
+# export DBAAS_MANAGER_IP=<*DBaaS_mgr_host_name*> </td>
+# export DBAAS_MANAGER_PORT=<*DBaaS_mgr_port_number*> </td>
+# export API_KEY=<*api_key*> </td>
+# export CPU_NUMBER=<*cpu_number*> </td>
+# export MEMORY_SIZE=<*memory_size*> </td>
+# export STORAGE_SIZE=<*storage_size*> </td>
+```
+{: codeblock}
 
 <p>To set the environment variables, load the client environment script:
 <pre><code class="hljs"># source openrc

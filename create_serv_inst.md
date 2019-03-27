@@ -4,6 +4,10 @@ copyright:
   years: 2017. 2018
 lastupdated: "2018-12-31"
 
+keywords: service instance, ibmcloud resource
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -14,19 +18,19 @@ lastupdated: "2018-12-31"
 
 # Creating a service instance
 
-To create a service instance, use the **ibmcloud resource service-instance-create** command, as shown in the following example. 
+To create a service instance, use the **ibmcloud resource service-instance-create** command, as shown in the following example.
 (**Note:** In Windows, it is recommended that you use a Bash terminal such as Cygwin or Git Bash to enter the command.)
 
 ```javascript
-ibmcloud resource service-instance-create MyDBaaSIns03 hypersecuredbaas mongodb-m1-free us-east -p '{"name":"DBaaSTestCLICluster03", "admin_name":"admin","password":"Pass4user", "confirm_password":"Pass4user", "license_agree":["agreed"]}' 
+ibmcloud resource service-instance-create MyDBaaSIns03 hypersecuredbaas mongodb-m1-free us-east -p '{"name":"DBaaSTestCLICluster03", "admin_name":"admin","password":"Pass4user", "confirm_password":"Pass4user", "license_agree":["agreed"]}'
 ```
 {: codeblock}
 
 Where the parameters have the following definitions:
 
 | Parameter        |  Definition                                                    |
-| :--------------- |  :------------------------------------------------------------- |
-| "MyDBaaSIns03"   |  The name of the service instance (replace with a name of your own choosing). | 
+| ---------------- |  -------------------------------------------------------------- |
+| "MyDBaaSIns03"   |  The name of the service instance (replace with a name of your own choosing). |
 | "hypersecuredbaas" | The catalog name of {{site.data.keyword.ihsdbaas_full}}. |
 | "mongodb-m1-free"  | The plan name. Available plans are: **mongodb-m1-free**, **mongodb-m2**, **postgresql-m1-free**, and **postgresql-m2**. (**Note:** Plan names are case-sensitive.) |
 | "us-east"            | The location where your new database will be located. (**Note:** Currently only **us-east** supports {{site.data.keyword.ihsdbaas_full}}.) |
@@ -34,7 +38,7 @@ Where the parameters have the following definitions:
 
 
 | -p parameter       | Definition |
-| :--------------- |  :------------------------------------------------------------- |
+| ---------------- |  -------------------------------------------------------------- |
 | "name"             | The name of your database cluster. |
 | "admin_name"       | The administrator's user name of the database to be created. |
 | "password"         | The administrator's user password of the database to be created. |
@@ -53,7 +57,7 @@ MyDBaaSIns03   us-east    inactive   service_instance
 ~$
 </code></pre>
 
-This is because it takes a few minutes to prepare the cluster. 
+This is because it takes a few minutes to prepare the cluster.
 To get an update of the cluster status, use the **ibmcloud resource service-instances** command, as shown in this example:
 
 <pre><code class="hljs">~$ ibmcloud resource service-instances
@@ -64,7 +68,3 @@ Name           Location   State      Type               Tags
 MyDBaaSIns03   us-east    active     service_instance
 ~$
 </code></pre>
-
-
-
-

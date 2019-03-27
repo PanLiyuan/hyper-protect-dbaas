@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-11-26"
 
+keywords: database cluster, DBaaS dashboard
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -19,7 +23,7 @@ A database cluster can host several databases.
 ##Before you begin
 {: #databases_byb}
 
-In the {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS dashboard, select the "Databases" tab.
+In the {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} dashboard, select the "Databases" tab.
 
 ##Creating a database
 
@@ -29,7 +33,7 @@ In the {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS dashboard, select th
 
 ##Deleting a database
 
-**Note:** Do not delete a database if that database was created by credential 
+**Note:** Do not delete a database if that database was created by credential
 and if that credential is still in use.
 
 1. Select the database.

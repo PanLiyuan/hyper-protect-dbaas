@@ -4,6 +4,10 @@ copyright:
   years: 2018
 lastupdated: "2018-11-20"
 
+keywords: service instance, json
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -23,4 +27,3 @@ curl -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H
 {: codeblock}
 
 The system returns a JSON object containing all the DBaaS service instances in your account.
-

@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-11-20"
 
+keywords: Cluster operation, cluster operation commands, database cluster
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -31,7 +35,7 @@ Creates a database cluster.
 
 The command returns immediately with cluster status of BUILD. After about 30 seconds, a cluster status of RUNNING becomes available. To get the updated cluster status, run the [cluster-list](#cluster_list) or [cluster-show](#cluster_show) command.
 
-This command requires you to accept the IBM license. Therefore, when you enter the command, preface it with the **\./dmclient --accept-license** option, as in this example:
+This command requires you to accept the {{site.data.keyword.IBM}} license. Therefore, when you enter the command, preface it with the **\./dmclient --accept-license** option, as in this example:
 
 <pre><code class="hljs"># ./dmclient --accept-license cluster-create myClusterName user password
 </code></pre>
@@ -42,7 +46,7 @@ This command requires you to accept the IBM license. Therefore, when you enter t
 **cluster-create** *cluster_name* *admin_name* *admin_password*
 
 | Parameter        |  Description                                                    |
-| :--------------- |  :------------------------------------------------------------- |
+| ---------------- |  -------------------------------------------------------------- |
 | *cluster_name*   |  The cluster name to create                                     |
 | *admin_name*     |  The database administrator name to manage the database cluster |
 | *admin_password* |  The password of database administrator                         |
@@ -74,7 +78,7 @@ Shows the details of the specified cluster, including information about each rep
 **cluster-show** *cluster_id*
 
 | Parameter        |  Description                                                    |
-| :--------------- |  :------------------------------------------------------------- |
+| ---------------- |  -------------------------------------------------------------- |
 | *cluster_id*     |  The ID of the cluster, as shown in the [cluster-list](#cluster_list) command |
 
 
@@ -92,5 +96,5 @@ Deletes a cluster. When the cluster is deleted, all the data is lost.
 **cluster-delete** *cluster_id*
 
 | Parameter        |  Description                                                    |
-| :--------------- |  :------------------------------------------------------------- |
+| ---------------- |  -------------------------------------------------------------- |
 | *cluster_id*     |  The ID of the cluster, as shown in the [cluster-list](#cluster_list) command |

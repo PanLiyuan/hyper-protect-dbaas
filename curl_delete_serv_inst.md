@@ -4,6 +4,10 @@ copyright:
   years: 2018
 lastupdated: "2018-11-20"
 
+keywords: service instance, bond ID, RESTful API
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -21,8 +25,8 @@ curl -X DELETE -H "Content-Type: application/json" -H "Accept: application/json"
 ```
 {: codeblock}
 
-Where the string following https://resource-controller.ng.bluemix.net/v1/resource_instances/ specifies the bond ID of the service instance to be deleted. 
-In this example, the string translates to this bond ID: 
+Where the string following https://resource-controller.ng.bluemix.net/v1/resource_instances/ specifies the bond ID of the service instance to be deleted.
+In this example, the string translates to this bond ID:
 
 <pre><code class="hljs">crn:v1:bluemix:public:hypersecuredbaas:us-south:a/b036890f78cc6619a2755ad4214d0455:3737ea51-0a6c-46c6-bdee-1e82148a27fc
-</code></pre>	
+</code></pre>

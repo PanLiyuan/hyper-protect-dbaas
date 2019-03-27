@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-02-07"
 
+keywords: DBaaS Manager APIs, DBaaS Manager, API request
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -46,7 +50,7 @@ lastupdated: "2019-02-07"
 ## Example
 
 To create a service instance, issue direct API calls based on a JSON formatted
-configuration request. 
+configuration request.
 
 clusterconfig.json contents are shown here:
 
@@ -87,7 +91,7 @@ Where:
 <dt> &lt;<em>accessToken</em>&gt; </dt>
 <dd>Is the previously obtained access token; see [Setting up authentication to use DBaaS Manager APIs](/docs/services/hyper-protect-dbaas?topic=hyper-protect-dbaas-setting-up-authentication-to-use-dbaas-manager-apis#setting-up-authentication-to-use-dbaas-manager-apis). (**Note:** If the access token has expired, return to those instructions and request a new token.) </dd>
 <dt> &lt;<em>DBaaSManager</em>&gt; </dt>
-<dd>Is the host name of a DBaaS Manager. Valid host names are listed above.
+<dd>Is the host name of a DBaaS Manager. Valid host names are listed in the table above.
 </dd>
 <dt> &lt;<em>PortNumber</em>&gt; </dt>
 <dd>Is the port number of the DBaaS Manager. This is the valid port number:
@@ -97,5 +101,5 @@ Where:
 <dd>Is the previously obtained user ID.</dd>
 </dl>
 
-**Note:** The database administrator does not have SUPERUSER authority. 
+**Note:** The database administrator does not have SUPERUSER authority.
 The authorities of the database administrator are limited to INHERIT, CREATEROLE, CREATEDB, LOGIN, and REPLICATION.

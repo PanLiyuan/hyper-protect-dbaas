@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-11-26"
 
+keywords: user operation commands, database user, cluster resource, user name
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -43,7 +47,7 @@ Creates a database user.
 **ibmcloud dbaas user-create** *resource_name* *username* *password* [*db_name* [*db_name* [...]]]
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *resource_name*     |  The name of the cluster resource.        |
 | *auth_db.username* | Specific to MongoDB: The authentication database name and user name, separated by a period, to be assigned to the database user being created. |
 | *username* | Specific to PostgreSQL: The user name to be assigned to the database user being created. |
@@ -65,7 +69,7 @@ Lists all the database users.
 **ibmcloud dbaas user-list** *resource_name*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *resource_name*    |  The name of the cluster resource.      |
 | *instance_id*    |  The ID of the instance.      |
 | *filename*    |  The name of the user file to download.      |
@@ -90,7 +94,7 @@ Shows details about a database user.
 **ibmcloud dbaas user-show** *resource_name* *username*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *resource_name*    |  The name of the cluster resource.      |
 | *auth_db.username* | Specific to MongoDB: The authentication database name and user name, separated by a period, to be assigned to the database user being created. |
 | *username* | Specific to PostgreSQL: The user name to be assigned to the database user being created. |
@@ -116,7 +120,7 @@ Deletes a database user.
 **ibmcloud dbaas user-delete** *resource_name* *username*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *resource_name*    |  The name of the cluster resource.      |
 | *auth_db.username* | Specific to MongoDB: The authentication database name and user name, separated by a period, to be assigned to the database user being created. |
 | *username* | Specific to PostgreSQL: The user name to be assigned to the database user being created. |

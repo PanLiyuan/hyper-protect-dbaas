@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-02-21"
 
+keywords: help, support
+
+subcollection: hyper-protect-dbaas
+
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -21,15 +25,15 @@ If you have problems, consider these techniques for troubleshooting and getting 
 
   * Refer to https://cloud.ibm.com/unifiedsupport/supportcenter
   * Select **Support** at the upper right of the {{site.data.keyword.cloud}} console
-  
+
 To get in contact with the team, use one of the following options:
 
-  * Submit a question through one of these forums (specifying "Hyper Protect DBaaS" in your entry):
+  * Submit a question through one of these forums (specifying **{{site.data.keyword.ihsdbaas_full}}** in your entry):
 
 	* https://developer.ibm.com/answers/index.html
-	
+
 	* https://stackoverflow.com/
-	
-  * Contact the IBM Cloud Hyper Protect DBaaS SRE team at this email address:
-  
+
+  * Contact the {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_full}} SRE team at this email address:
+
     * **dbaas.sre@de.ibm.com**   	

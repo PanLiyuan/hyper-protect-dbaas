@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-11-26"
 
+keywords: CLI command, source openrc, command-line interface
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}

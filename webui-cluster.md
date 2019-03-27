@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-03-26"
+
+keywords: database cluster, pricing plans, License Agreement
+
+subcollection: hyper-protect-dbaas
 
 ---
 
@@ -17,7 +21,7 @@ lastupdated: "2019-02-07"
 ## Creating a database cluster
 
 <ol>
-<li>Click the {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS catalog entry to open the service configuration screen.</li>
+<li>Click the {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} catalog entry to open the service configuration screen.</li>
 <li>Enter the required values.
 	<dl>
 		<dt>Service name:</dt>
@@ -27,8 +31,8 @@ lastupdated: "2019-02-07"
     <dd>Select the data center where the database will be located.</dd>
 
     <dt>Select a resource group:</dt>
-    <dd>If no resource group is selectable, you can create one on the IBM Cloud dashboard.</dd>
-    
+    <dd>If no resource group is selectable, you can create one on the {{site.data.keyword.cloud_notm}} dashboard.</dd>
+
     <dt>Tags:</dt>
     <dd>Tags are optional. See [Tagging resources](/docs/resources?topic=resources-tag#tag) for more information about tagging.</dd>
 
@@ -55,27 +59,27 @@ lastupdated: "2019-02-07"
 </li>
 <li>Click **Create**.
 
-<p>The IBM Cloud dashboard is displayed.</p></li>
+<p>The {{site.data.keyword.cloud_notm}} dashboard is displayed.</p></li>
 
-<li>Select the service to display the IBM Cloud Hyper Protect DBaaS dashboard.</li>
+<li>Select the service to display the {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_full}} dashboard.</li>
 </ol>
 
 ## Listing all database clusters
 
-Open the IBM Cloud dashboard to display a list of created database clusters.
+Open the {{site.data.keyword.cloud_notm}} dashboard to display a list of created database clusters:
 
 <ol>
 <li>Click the three bars in the upper left of the console.</li>
 <li>Select Dashboard.</li>
 </ol>
 
-The displayed services contain a list of created database clusters.
+Select Services to display a list of created database clusters.
 
 ## Showing detail information of a database cluster
 
 * In the Manage tab of the cluster information, select the Overview tab.
 
-The {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS dashboard is displayed.
+The {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_full}} dashboard is displayed.
 
 ## Deleting a database cluster
 

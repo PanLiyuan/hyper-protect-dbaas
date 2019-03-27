@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-11-20"
 
+keywords: database user, Database user operation, database user operation commands
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -36,7 +40,7 @@ Creates one or more database users.
 **user-create** *cluster_id* *database.username* *password* \[*db_name* \[*db_name* ...\]\]
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *cluster_id*     |  The ID of the cluster        |
 | *database.username* | The authentication database name and a username to create, separated by a period |
 | *password*       | The login password for this user. |
@@ -57,7 +61,7 @@ Lists all the database users.
 **user-list** *cluster_id*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *cluster_id*    |  The ID of the cluster       |
 
 
@@ -75,7 +79,7 @@ Shows details about a database user.
 **user-show** *cluster_id* *database.username*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *cluster_id*    |  The ID of the cluster       |
 | *database.username* | The authentication database name and the user name, separated by a period |
 
@@ -94,6 +98,6 @@ Deletes a database user.
 **user-delete** *cluster_id* *database.username*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *cluster_id*    |  The ID of the cluster       |
 | *database.username* | The authentication database name and the user name, separated by a period |

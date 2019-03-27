@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-11-26"
 
+keywords: database instance, DBaaS dashboard
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -17,7 +21,7 @@ lastupdated: "2018-11-26"
 ##Before you begin
 {: #database_instances_byb}
 
-In the {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS dashboard, select the Instances tab.
+In the {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} dashboard, select the Instances tab.
 
 ##Starting a database instance
 

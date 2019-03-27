@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-11-20"
 
+keywords: log operation commands, operation commands, log file, log
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -33,7 +37,7 @@ Lists all the log files on an instance.
 **log-list** *instance_id*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *instance_id*    |  The ID of the instance       |
 
 
@@ -51,6 +55,6 @@ Downloads a log file from an instance.
 **log-get** *instance_id* *filename*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *instance_id*    |  The ID of the instance       |
 | *filename*       |  The name of the log file to download |

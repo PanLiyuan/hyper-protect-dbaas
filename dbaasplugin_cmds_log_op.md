@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-11-26"
 
+keywords: log operation commands, operation commands, cluster resource, log file
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -33,7 +37,7 @@ Lists all the log files on an instance.
 **ibmcloud dbaas log-list** *resource_name* *instance_id*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *resource_name*     |  The name of the cluster resource.        |
 | *instance_id* | The ID of the instance. |
 
@@ -52,7 +56,7 @@ Downloads a log file from an instance.
 **ibmcloud dbaas log-get** *resource_name* *instance_id* *filename*
 
 | Parameter        |  Description                  |
-| :--------------- |  :--------------------------- |
+| ---------------- |  ---------------------------- |
 | *resource_name*    |  The name of the cluster resource.      |
 | *instance_id*    |  The ID of the instance.      |
 | *filename*    |  The name of the log file to download.      |

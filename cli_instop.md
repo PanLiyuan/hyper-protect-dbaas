@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-04-23"
 
+keywords: Instance operation, instance operation commands, instance
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -13,6 +17,7 @@ lastupdated: "2018-04-23"
 
 
 # Instance operation commands
+{: #instance-operation-commands}
 
 These are the instance operation commands:
 
@@ -34,7 +39,7 @@ Stops an instance (that is, a replication member of the cluster).
 **instance-stop** *instance_id*
 
 | Parameter        |  Description                 |
-| :--------------- |  :---------------------------|
+| ---------------- |  ----------------------------|
 | *instance_id*    |  The ID of the instance       |
 
 
@@ -47,12 +52,12 @@ Stops an instance (that is, a replication member of the cluster).
 Starts a stopped instance.
 
 ### Usage
-{: #instance_start_desc}
+{: #instance_start_use}
 
 **instance-start** *instance_id*
 
 | Parameter        |  Description                 |
-| :--------------- |  :---------------------------|
+| ---------------- |  ----------------------------|
 | *instance_id*    |  The ID of the instance       |
 
 
@@ -70,5 +75,5 @@ Restarts a running instance.
 **instance-restart** *instance_id*
 
 | Parameter        |  Description                 |
-| :--------------- |  :---------------------------|
+| ---------------- |  ----------------------------|
 | *instance_id*    |  The ID of the instance       |

@@ -3,6 +3,11 @@
 copyright:
   years: 2017, 2018
 lastupdated: "2018-11-20"
+
+keywords: cluster operation command, cluster operation, cluster resource
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -30,6 +35,5 @@ Shows the details of the specified cluster, including information about each rep
 **ibmcloud dbaas cluster-show** *resource_name*
 
 | Parameter        |  Description                                                    |
-| :--------------- |  :------------------------------------------------------------- |
-| *resource_name*  |  The name of the cluster resource. To find the resource name, use the IBM Cloud command **ibmcloud resource service-instances**. |
-
+| ---------------- |  -------------------------------------------------------------- |
+| *resource_name*  |  The name of the cluster resource. To find the resource name, use the {{site.data.keyword.cloud}} command **ibmcloud resource service-instances**. |

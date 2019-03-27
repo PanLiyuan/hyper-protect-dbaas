@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-11-26"
 
+keywords: database user, Users tab, user name
+
+subcollection: hyper-protect-dbaas
+
 ---
 
 {:new_window: target="_blank"}
@@ -17,7 +21,7 @@ lastupdated: "2018-11-26"
 ##Before you begin
 {: #database_users_byb}
 
-In the {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS dashboard, select the Users tab.
+In the {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} dashboard, select the Users tab.
 
 ##Creating a database user
 
@@ -28,7 +32,7 @@ user is to be authorized.
 
 ##Deleting a database user
 
-**Note:** Do not delete a database user if that database user was 
+**Note:** Do not delete a database user if that database user was
 created by credential and if that credential is still in use.
 
 1. Select the database user.
