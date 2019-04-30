@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-21"
+lastupdated: "2019-04-30"
 
 keywords: IBM Cloud CLI tool, IBM Cloud CLI Installer, operating system
 
@@ -22,7 +22,7 @@ To download and install the {{site.data.keyword.cloud}} CLI tool, follow these s
 
 1. Go to **{{site.data.keyword.cloud_notm}} CLI Installer all versions** at this URL:
 
-   https://cloud.ibm.com/docs/cli/reference/ibmcloud?topic=cloud-cli-cli-releases#ibm-cloud-cli-installer-all-versionsDownload
+   https://github.com/IBM-Cloud/ibm-cloud-cli-release/releases/
 
 2. Download the tool by clicking on the version that matches your operating system.
 
