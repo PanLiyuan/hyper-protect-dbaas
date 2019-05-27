@@ -1,11 +1,10 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-11-26"
+  years: 2017, 2019
+lastupdated: "2019-05-16"
 
-keywords: browsers, Chrome version, Firefox version
-
+keywords: browser, Safari, plug-in
 subcollection: hyper-protect-dbaas
 
 ---
@@ -20,10 +19,10 @@ subcollection: hyper-protect-dbaas
 
 # Supported browsers
 
-{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} has been tested using:
+For a list of supported browsers, 
+see https://cloud.ibm.com/docs/overview?topic=overview-prereqs-platform#browsers-platform.
 {: shortdesc}
 
-  * Firefox version 56 and higher
-  * Chrome version 61 and higher
+For Safari, please open **Safari > Preferences > Privacy** and uncheck the options **Prevent cross-site tracking** and **Block all cookies**.
 
-  If you encounter problems using these browsers, disable your browser plug-ins.
+If you encounter problems using these browsers, disable your browser plug-ins.
