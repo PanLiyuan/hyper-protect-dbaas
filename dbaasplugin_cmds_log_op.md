@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-26"
+  years: 2017, 2019
+lastupdated: "2019-07-23"
 
 keywords: log operation commands, operation commands, cluster resource, log file
 
@@ -18,45 +18,7 @@ subcollection: hyper-protect-dbaas
 
 # Log operation commands
 
-These are the log operation commands:
-
-- [log-list](#log_list)
-- [log-get](#log_get)
-
-## log-list command
-{: #log_list}
-
-### Description
-{: #log_list_desc}
-
-Lists all the log files on an instance.
-
-### Usage
-{: #log_list_use}
-
-**ibmcloud dbaas log-list** *resource_name* *instance_id*
-
-| Parameter        |  Description                  |
-| ---------------- |  ---------------------------- |
-| *resource_name*     |  The name of the cluster resource.        |
-| *instance_id* | The ID of the instance. |
-
-
-## log-get command
-{: #log_get}
-
-### Description
-{: #log_get_desc}
-
-Downloads a log file from an instance.
-
-### Usage
-{: #log_get_use}
-
-**ibmcloud dbaas log-get** *resource_name* *instance_id* *filename*
-
-| Parameter        |  Description                  |
-| ---------------- |  ---------------------------- |
-| *resource_name*    |  The name of the cluster resource.      |
-| *instance_id*    |  The ID of the instance.      |
-| *filename*    |  The name of the log file to download.      |
+{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} Beta will not be available after 31 July, 2019. You can read the GA documentation:
+{:shortdesc: .shortdesc}
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-26"
+  years: 2017, 2019
+lastupdated: "2019-07-23"
 
 keywords: CLI command, source openrc, command-line interface
 
@@ -18,36 +18,7 @@ subcollection: hyper-protect-dbaas
 
 # Running the command-line interface
 
-## Procedure
-{: #running_cli_proc}
-
-To enter a CLI command:
-
-<ol>
-<li>Set the environment variables.
-<pre><code class="hljs"># source openrc
-</code></pre>
-</li>
-<li>Use the **dmclient** command followed by the CLI command and its parameters.
-<pre><code class="hljs"># ./dmclient <*cli-command*> <*parameter-list*>
-</code></pre>
-<p>See **Reference > Command-line interface** for a list of available CLI
-commands and their parameters.</p>
-</li>
-</ol>
-
-
-## Example
-{: #running_cli_xmp}
-
-* The **help** CLI command displays a list of available CLI commands:
-```
-# source openrc
-# ./dmclient help
-```
-
-* To create a database cluster, issue:
-```
-# source openrc
-# ./dmclient --accept-license cluster-create myClusterName user password
-```
+{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} Beta will not be available after 31 July, 2019. You can read the GA documentation:
+{:shortdesc: .shortdesc}
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)

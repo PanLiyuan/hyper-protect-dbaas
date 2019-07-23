@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-16"
+lastupdated: "2019-07-23"
 
 keywords: browser, Safari, plug-in
 subcollection: hyper-protect-dbaas
@@ -19,10 +19,7 @@ subcollection: hyper-protect-dbaas
 
 # Supported browsers
 
-For a list of supported browsers, 
-see https://cloud.ibm.com/docs/overview?topic=overview-prereqs-platform#browsers-platform.
-{: shortdesc}
-
-For Safari, please open **Safari > Preferences > Privacy** and uncheck the options **Prevent cross-site tracking** and **Block all cookies**.
-
-If you encounter problems using these browsers, disable your browser plug-ins.
+{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} Beta will not be available after 31 July, 2019. You can read the GA documentation:
+{:shortdesc: .shortdesc}
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)

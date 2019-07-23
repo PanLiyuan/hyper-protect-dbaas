@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-20"
+  years: 2018, 2019
+lastupdated: "2019-07-23"
 
 keywords: service instance, bond ID, RESTful API
 
@@ -18,15 +18,7 @@ subcollection: hyper-protect-dbaas
 
 # Deleting a service instance
 
-To delete a service instance, invoke the DELETE RESTful API, as shown in this example:
-
-```javascript
-curl -X DELETE -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer eyJraWQiOiI*** ***ygSyuylLw" https://resource-controller.ng.bluemix.net/v1/resource_instances/crn%3Av1%3Abluemix%3Apublic%3Ahypersecuredbaas%3Aus-south%3Aa%2Fb036890f78cc6619a2755ad4214d0455%3A3737ea51-0a6c-46c6-bdee-1e82148a27fc%3A%3A
-```
-{: codeblock}
-
-Where the string following https://resource-controller.ng.bluemix.net/v1/resource_instances/ specifies the bond ID of the service instance to be deleted.
-In this example, the string translates to this bond ID:
-
-<pre><code class="hljs">crn:v1:bluemix:public:hypersecuredbaas:us-south:a/b036890f78cc6619a2755ad4214d0455:3737ea51-0a6c-46c6-bdee-1e82148a27fc
-</code></pre>
+{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} Beta will not be available after 31 July, 2019. You can read the GA documentation:
+{:shortdesc: .shortdesc}
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)

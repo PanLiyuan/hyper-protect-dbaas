@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-26"
+  years: 2018, 2019
+lastupdated: "2019-07-23"
 
 keywords: ibmcloud resource, service instance, CLI tool
 
@@ -18,20 +18,7 @@ subcollection: hyper-protect-dbaas
 
 # Deleting a service instance
 
-To review which services you have created, use this command:
-
-<pre><code class="hljs">~$ ibmcloud resource service-instances
-</code></pre>
-
-If you want to delete one of them, use the **ibmcloud resource service-instance-delete** command, as shown in this example:
-
-<pre><code class="hljs">~$ ibmcloud resource service-instance-delete MyDBaaSIns03
-</code></pre>
-
-The CLI tool asks you to confirm the deletion:
-
-<pre><code class="hljs">Really delete the service instance MyDBaaSIns03 with ID crn:v1:bluemix:pub
-da0e04a520:6884bf17-9950-450f-8bl1e-65487a72d812:: ?>
-</code></pre>
-
-To confirm, type **yes**.
+{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} Beta will not be available after 31 July, 2019. You can read the GA documentation:
+{:shortdesc: .shortdesc}
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)

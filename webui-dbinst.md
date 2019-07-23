@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-26"
+  years: 2017, 2019
+lastupdated: "2019-07-23"
 
 keywords: database instance, DBaaS dashboard
 
@@ -18,22 +18,7 @@ subcollection: hyper-protect-dbaas
 
 #Database instances
 
-##Before you begin
-{: #database_instances_byb}
-
-In the {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} dashboard, select the Instances tab.
-
-##Starting a database instance
-
-1. Select the database instance.
-2. Click the three dots at the right end of the line, then select **Start**.
-
-##Stopping a database instance
-
-1. Select the database instance.
-2. Click the three dots at the right end of the line, then select **Stop**.
-
-##Restarting a database instance
-
-1. Select the database instance.
-2. Click the three dots at the right end of the line, then select **Restart**.
+{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} Beta will not be available after 31 July, 2019. You can read the GA documentation:
+{:shortdesc: .shortdesc}
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)

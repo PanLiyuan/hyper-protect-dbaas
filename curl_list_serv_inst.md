@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-20"
+  years: 2018, 2019
+lastupdated: "2019-07-23"
 
 keywords: service instance, json
 
@@ -18,12 +18,7 @@ subcollection: hyper-protect-dbaas
 
 # Listing a service instance
 
-To list all the services in your account, use this command:
-
-```javascript
-curl -X GET -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Bearer eyJraWQiOiIyMDE3MT*** ***3V4pMYrOvMniLA" "https://resource-controller.ng.bluemix.net/v1/resource_instances?resource_plan_id=5bb4a184-fcb3-45ee-
-876a-f28f62a59c29"
-```
-{: codeblock}
-
-The system returns a JSON object containing all the DBaaS service instances in your account.
+{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} Beta will not be available after 31 July, 2019. You can read the GA documentation:
+{:shortdesc: .shortdesc}
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)

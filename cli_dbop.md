@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-20"
+  years: 2017, 2019
+lastupdated: "2019-07-23"
 
 keywords: Database operation, database operation commands, database-list database
 
@@ -18,64 +18,7 @@ subcollection: hyper-protect-dbaas
 
 # Database operation commands
 
-These are the database operation commands:
-
-- [database-create](#database_create)
-- [database-list](#database_list)
-- [database-delete](#database_delete)
-
-## database-create command
-{: #database_create}
-
-### Description
-{: #database_create_desc}
-
-Creates a database. For MongoDB, a collection must also be created with the database.
-
-### Usage
-{: #database_create_use}
-
-**database-create** *cluster_id* *database* *collection*
-
-| Parameter        |  Description                 |
-| ---------------- |  ----------------------------|
-| *cluster_id*     |  The ID of the cluster       |
-| *database*       |  The database name to create |
-| *collection*     |  The collection name to create |
-
-
-## database-list command
-{: #database_list}
-
-### Description
-{: #database_list_desc}
-
-Lists all the databases on the given cluster.
-
-### Usage
-{: #database_list_use}
-
-**database-list** *cluster_id*
-
-| Parameter        |  Description                 |
-| ---------------- |  ----------------------------|
-| *cluster_id*     |  The ID of the cluster       |
-
-
-## database-delete command
-{: #database_delete}
-
-### Description
-{: #database_delete_desc}
-
-Deletes a database.
-
-### Usage
-{: #database_delete_use}
-
-**database-delete** *cluster_id* *database*
-
-| Parameter        |  Description                 |
-| ---------------- |  ----------------------------|
-| *cluster_id*     |  The ID of the cluster       |
-| *database*       |  The name of the database to delete. |
+{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} Beta will not be available after 31 July, 2019. You can read the GA documentation:
+{:shortdesc: .shortdesc}
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
+- [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}}](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)
