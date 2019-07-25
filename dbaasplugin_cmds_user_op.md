@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-23"
+lastupdated: "2019-07-31"
 
 keywords: user operation commands, database user, cluster resource, user name
 

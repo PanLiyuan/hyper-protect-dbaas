@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-23"
+lastupdated: "2019-07-31"
 
 keywords: log operation commands, operation commands, log file, log
 
